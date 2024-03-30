@@ -172,7 +172,7 @@ am5.ready(function () {
   
 
   // Hide legend
-  chart.children.remove(legend);
+  // chart.children.remove(legend);
 
   // Play initial series animation
   series.appear(1000, 100);
