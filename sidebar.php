@@ -80,9 +80,9 @@
                     </li>
 
                     <li class="dash-nav-link"> 
-                        <a class="nav-link" href="javascript:void()">
+                        <a class="nav-link" href="calendar.php">
                             <i style="color: #C30000;" class="fa-solid fa-calendar-days"></i>
-                            Calendrers
+                            Calendar
                         </a>
                     </li>
 
@@ -108,16 +108,16 @@
                     </li>
 
                     <li class="dash-nav-link"> 
-                        <a class="nav-link" href="javascript:void()">
+                        <a class="nav-link" href="coupons-offer.php">
                             <i style="color: #28D5A7;" class="fa-solid fa-money-bill"></i>
                             Coupons & Offers
                         </a>
                     </li>
 
                     <li class="dash-nav-link"> 
-                        <a class="nav-link position-relative" href="javascript:void()">
+                        <a class="nav-link position-relative" href="payments.php">
                             <i style="color: #F9B851;" class="fa-solid fa-money-check-dollar"></i>
-                            Payments
+                                Payments
                             <i style="color: #2B3282;" class="fa-solid fa-angle-down sider-angle-down"></i>
                         </a>
                         <ul class="dash-sb-nav-area">
@@ -131,7 +131,7 @@
                     </li>
 
                     <li class="dash-nav-link"> 
-                        <a class="nav-link" href="javascript:void()">
+                        <a class="nav-link" href="my-wallet.php">
                             <i style="color: #CC08E9;" class="bi bi-credit-card"></i>
                             My Wallet
                         </a>
