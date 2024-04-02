@@ -36,7 +36,7 @@
                             </div>
                         </div>
                         <div class="table-parent">
-                            <table class="datatables-ajax table-responsive table-stripe table" id="my_booking">
+                            <table class="datatables-ajax table-responsive table-stripe table theme-tabel" id="my_booking">
                                 <thead>
                                     <tr>
                                         <th><span class="box"></span></th>

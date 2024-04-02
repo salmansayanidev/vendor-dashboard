@@ -33,7 +33,7 @@
                             </div>
                         </div>
                         <div class="table-parent">
-                            <table class="datatables-ajax table-responsive table-stripe table" id="contact">
+                            <table class="datatables-ajax table-responsive table-stripe table theme-tabel" id="contact">
                                 <thead>
                                     <tr>
                                         <th><span class="box"></span></th>

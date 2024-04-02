@@ -186,7 +186,7 @@ include "header.php";
                             </div>
                         </div>
                         <div class="table-parent">
-                            <table class="datatables-ajax table-responsive table-stripe table" id="room-booking-charge">
+                            <table class="datatables-ajax table-responsive table-stripe table theme-tabel" id="room-booking-charge">
                                 <thead>
                                     <tr>
                                         <th><span class="box"></span></th>

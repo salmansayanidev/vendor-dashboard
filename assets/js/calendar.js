@@ -7,33 +7,33 @@ document.addEventListener("DOMContentLoaded", function () {
       center: "title",
       right: "dayGridMonth,timeGridWeek,timeGridDay,listMonth",
     },
-    initialDate: "2023-01-12",
+    initialDate: "2024-01-12",
     navLinks: true, // can click day/week names to navigate views
     businessHours: true, // display business hours
-    editable: true,
+    editable: false,
     selectable: true,
     events: [
       {
-        title: "Business Lunch",
-        start: "2023-01-03T13:00:00",
+        title: "Booked",
+        start: "2024-01-03T13:00:00",
         constraint: "businessHours",
+        color: "#000",
       },
       {
         title: "Meeting",
-        start: "2023-01-13T11:00:00",
+        start: "2024-01-13T11:00:00",
         constraint: "availableForMeeting", // defined below
         color: "#257e4a",
       },
       {
         title: "Conference",
-        start: "2023-01-18",
+        start: "2024-01-18",
         end: "2023-01-20",
       },
       {
         title: "Party",
-        start: "2023-01-29T20:00:00",
+        start: "2024-01-29T20:00:00",
       },
-
       // areas where "Meeting" must be dropped
       {
         groupId: "availableForMeeting",
@@ -47,7 +47,6 @@ document.addEventListener("DOMContentLoaded", function () {
         end: "2023-01-13T16:00:00",
         display: "background",
       },
-
       // red areas where no events can be dropped
       {
         start: "2023-01-24",
@@ -65,6 +64,6 @@ document.addEventListener("DOMContentLoaded", function () {
       },
     ],
   });
-
+console.log(calendar);
   calendar.render();
 });

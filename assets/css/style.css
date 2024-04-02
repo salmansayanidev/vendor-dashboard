@@ -424,18 +424,18 @@ nav.breadcrumb-area .breadcrumb {
   width: 100%;
   border-radius: 50%;
 }
-table th {
+table.theme-tabel th {
   font-size: 1.6rem;
   font-family: var(--Roboto-Medium);
   color: var(--sb-title-color) !important;
   padding: 20px 20px !important;
   background-color: #f5f5f5 !important;
 }
-table tr th:nth-child(1) {
+table.theme-tabel tr th:nth-child(1) {
   border-radius: 5px 0px 0px 5px;
 }
 
-table tr th:nth-last-child(1) {
+table.theme-tabel tr th:nth-last-child(1) {
   border-radius: 0px 5px 5px 0px;
 }
 /* table tr td:nth-child(1) {
@@ -448,14 +448,14 @@ span.box {
   border: 2px solid #cacaca;
   border-radius: 4px;
 }
-table td {
+table.theme-tabel td {
   font-size: 1.6rem;
   font-family: var(--Roboto-Regular);
   color: var(--sb-title-color) !important;
   border-bottom: 2px solid #d7d7d9;
   padding: 10px 0px 7px 20px !important;
 }
-table th,
+table.theme-tabel th,
 td {
   vertical-align: middle;
 }
@@ -923,7 +923,6 @@ img.pro-picture {
 
 /* review screen end  */
 
-
 /* coupns screen start */
 .coupons-gift-main {
   display: flex;
@@ -933,8 +932,12 @@ img.pro-picture {
 }
 .coupons-gift-area {
   width: 28%;
-  background: rgb(188,26,37);
-  background: linear-gradient(180deg, rgba(188,26,37,1) 18%, rgba(43,50,130,1) 100%);
+  background: rgb(188, 26, 37);
+  background: linear-gradient(
+    180deg,
+    rgba(188, 26, 37, 1) 18%,
+    rgba(43, 50, 130, 1) 100%
+  );
   border-radius: 10px;
   height: 255px;
   padding: 25px 30px;
@@ -968,10 +971,7 @@ img.pro-picture {
   color: white;
 }
 
-
 /* coupns screen start */
-
-
 
 /* payment screen start */
 
@@ -984,14 +984,14 @@ ul.payment-tabs-btn-area {
 .payment-btn {
   font-size: 1.6rem;
   font-family: var(--Roboto-Bold);
-  color: #8A92A6;
+  color: #8a92a6;
   letter-spacing: 0.5px;
   border-radius: 7px;
   gap: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #8A92A6;
+  border: 1px solid #8a92a6;
   background-color: transparent;
   padding: 12px 36px 12px 36px;
 }
@@ -999,7 +999,7 @@ ul.payment-tabs-btn-area {
   height: 18px;
   width: 18px;
   border-radius: 50%;
-  border: 1px solid #8A92A6;
+  border: 1px solid #8a92a6;
   font-size: 1rem;
   display: flex;
   justify-content: center;
@@ -1031,7 +1031,7 @@ ul.payment-tabs-btn-area {
 label.payment-label {
   font-size: 1.8rem;
   font-family: var(--Roboto-Bold);
-  color: #8B8B8B;
+  color: #8b8b8b;
   margin-bottom: 3px;
 }
 
@@ -1079,13 +1079,14 @@ input {
   max-height: 60px;
 }
 
-.creditcard svg#cardfront, .creditcard svg#cardback {
+.creditcard svg#cardfront,
+.creditcard svg#cardback {
   width: 100%;
   -webkit-box-shadow: 1px 5px 6px 0px black;
   box-shadow: 6px 20px 23px 5px #00000047;
   border-radius: 22px;
 }
-#generatecard{
+#generatecard {
   cursor: pointer;
   float: right;
   font-size: 12px;
@@ -1094,22 +1095,22 @@ input {
   background-color: #909090;
   border-radius: 4px;
   cursor: pointer;
-  float:right;
+  float: right;
 }
 
 /* CHANGEABLE CARD ELEMENTS */
 .creditcard .lightcolor,
 .creditcard .darkcolor {
-  -webkit-transition: fill .5s;
-  transition: fill .5s;
+  -webkit-transition: fill 0.5s;
+  transition: fill 0.5s;
 }
 
 .creditcard .lightblue {
-  fill: #03A9F4;
+  fill: #03a9f4;
 }
 
 .creditcard .lightbluedark {
-  fill: #0288D1;
+  fill: #0288d1;
 }
 
 .creditcard .red {
@@ -1182,11 +1183,11 @@ input {
 }
 
 #cardfront .st2 {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 #cardfront .st3 {
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   font-weight: 600;
 }
 
@@ -1195,7 +1196,7 @@ input {
 }
 
 #cardfront .st5 {
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   font-weight: 400;
 }
 
@@ -1206,7 +1207,7 @@ input {
 
 #cardfront .st7 {
   opacity: 0.6;
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 #cardfront .st8 {
@@ -1221,7 +1222,7 @@ input {
 }
 
 #cardfront .st10 {
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   font-weight: 300;
 }
 
@@ -1231,13 +1232,13 @@ input {
 }
 
 #cardfront .st12 {
-  fill: #4C4C4C;
+  fill: #4c4c4c;
 }
 
 /* BACK OF CARD */
 #cardback .st0 {
   fill: none;
-  stroke: #0F0F0F;
+  stroke: #0f0f0f;
   stroke-miterlimit: 10;
 }
 
@@ -1246,19 +1247,19 @@ input {
 }
 
 #cardback .st3 {
-  fill: #F2F2F2;
+  fill: #f2f2f2;
 }
 
 #cardback .st4 {
-  fill: #D8D2DB;
+  fill: #d8d2db;
 }
 
 #cardback .st5 {
-  fill: #C4C4C4;
+  fill: #c4c4c4;
 }
 
 #cardback .st6 {
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   font-weight: 400;
 }
 
@@ -1271,7 +1272,7 @@ input {
 }
 
 #cardback .st9 {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 #cardback .st10 {
@@ -1280,11 +1281,11 @@ input {
 }
 
 #cardback .st11 {
-  fill: #EAEAEA;
+  fill: #eaeaea;
 }
 
 #cardback .st12 {
-  font-family: 'Rock Salt', cursive;
+  font-family: "Rock Salt", cursive;
 }
 
 #cardback .st13 {
@@ -1336,15 +1337,15 @@ input {
   font-size: 2rem;
   font-family: var(--Roboto-Medium);
   color: var(--sb-title-color);
-  border-top: 1px solid #E3E3E3;
-  border-bottom: 1px solid #E3E3E3;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
   padding: 20px 0;
   margin-bottom: 30px;
 }
 .payment-method-input {
   height: 50px;
   width: 100%;
-  border: 1px solid #BABABA;
+  border: 1px solid #bababa;
   outline: none;
   font-size: 1.6rem;
   font-family: var(--Roboto-Regular);
@@ -1354,7 +1355,7 @@ input {
 .payment-method-input::placeholder {
   font-size: 1.4rem;
   font-family: var(--Roboto-Regular);
-  color: #A4A4A4;
+  color: #a4a4a4;
 }
 .card-area {
   display: none;
@@ -1363,12 +1364,12 @@ input {
   display: block;
 }
 .payment-tabs-btn.active .payment-btn {
-  border: 1px solid #2B3381;
-  color: #2B3381;
-} 
+  border: 1px solid #2b3381;
+  color: #2b3381;
+}
 .payment-tabs-btn.active .right-circle {
-  background-color: #2B3381;
-  color: #2B3381;
+  background-color: #2b3381;
+  color: #2b3381;
 }
 .payment-tabs-btn.active .right-circle i {
   color: white;
@@ -1376,13 +1377,11 @@ input {
 
 /* payment screen end */
 
-
-
 /* wallet screen start */
 
 .blance-here {
   font-size: 1.6rem;
-  color: #8A92A6;
+  color: #8a92a6;
   font-family: var(--Roboto-Bold);
   line-height: 1.3;
 }
@@ -1396,15 +1395,14 @@ input {
   width: 100%;
   border-radius: 12px;
   background-color: white;
-  border: 1px solid #E0E0E0;
+  border: 1px solid #e0e0e0;
   text-align: center;
   padding: 26px 10px;
-  box-shadow: 0px 4px 45px 0px #0000001F;
+  box-shadow: 0px 4px 45px 0px #0000001f;
   margin-bottom: 30px;
 }
 
 /* wallet screen end */
-
 
 /* calendar screen start */
 
@@ -1412,15 +1410,116 @@ input {
   width: 100%;
   margin: 0 auto;
 }
-#calendar table td  {
+#calendar table td {
   padding: 0 !important;
 }
 
 #calendar table.fc-col-header th {
   padding: 20px 0 !important;
+  background-color: black;
+}
+#calendar table.fc-col-header th a {
+  font-size: 2.2rem;
+  color: white;
+  font-family: var(--Roboto-Regular);
+  text-decoration: none;
+}
+#calendar table.fc-col-header tr th:nth-child(1) {
+  border-radius: 25px 0 0 0;
+}
+#calendar table.fc-col-header tr th:nth-last-child(1) {
+  border-radius: 0 25px 0 0;
 }
 #calendar table.fc-scrollgrid-section.fc-scrollgrid-section-header th {
-  padding: 0 !important;
+  padding: 20px 0 !important;
 }
-
+.fc-toolbar-title {
+  font-size: 3rem !important;
+  font-family: var(--Roboto-Bold) !important;
+  color: var(--sb-title-color) !important;
+}
+.fc-today-button {
+  font-size: 2.2rem !important;
+  font-family: var(--Roboto-Medium) !important;
+  color: white !important;
+  background-color: var(--theme-color) !important;
+  border-radius: 5px !important;
+  border: 1px solid black !important;
+  line-height: 1.2 !important;
+  height: 50px !important;
+  padding: 10px 26px !important;
+}
+.fc-button-group {
+  gap: 5px !important;
+}
+.fc-next-button,
+.fc-prev-button,
+.fc-dayGridMonth-button,
+.fc-timeGridWeek-button,
+.fc-timeGridDay-button,
+.fc-listMonth-button {
+  height: 50px !important;
+  padding: 10px 10px !important;
+  background-color: transparent !important;
+  border-radius: 5px !important;
+  border: 1px solid black !important;
+  color: black !important;
+  font-size: 2.5rem !important;
+  font-family: var(--Roboto-Regular) !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.fc .fc-button .fc-icon {
+  font-size: 4rem !important;
+}
+.fc-icon-chevron-right::before {
+  color: black !important;
+}
+.fc .fc-daygrid-day-frame {
+  min-height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fc-daygrid-day-number {
+  font-size: 2.2rem !important;
+  font-family: var(--Roboto-Regular) !important;
+  color: black !important;
+  text-decoration: none !important;
+}
+.fc-theme-standard td, .fc-theme-standard th {
+  border: 1px solid black;
+}
+.fc-non-business {
+  background-color: transparent !important;
+}
+.fc-button-primary.fc-button-active {
+  background-color: var(--theme-color) !important;
+  color: white !important;
+}
+.fc .fc-bg-event {
+  opacity: 1 !important;
+}
+.fc-event.fc-event-start.fc-event-end.fc-event-past.fc-bg-event {
+  background-color: var(--theme-color) !important;
+} 
+.fc-daygrid-day-bg {
+    background-color: black;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+.fc .fc-toolbar.fc-header-toolbar {
+  margin-bottom: 30px;
+}
+/* .fc-daygrid-day-events {
+  content: " ";
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  background-color: black;
+} */
 /* calendar screen end */
