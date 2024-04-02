@@ -42,7 +42,7 @@
                                             </label>
                                         </div>
                                         <div class="input-area"> 
-                                            <input type="text" placeholder="John" readonly name="" id="">
+                                            <input type="text" placeholder="John" readonly name="" >
                                         </div>
                                     </div>
 
@@ -53,7 +53,7 @@
                                             </label>
                                         </div>
                                         <div class="input-area"> 
-                                            <input type="text" placeholder="Michael" readonly name="" id="">
+                                            <input type="text" placeholder="Michael" readonly name="" >
                                         </div>
                                     </div>
 
@@ -64,7 +64,7 @@
                                             </label>
                                         </div>
                                         <div class="input-area"> 
-                                            <input type="email" placeholder="johnmichael99@gmail.com" readonly name="" id="">
+                                            <input type="email" placeholder="johnmichael99@gmail.com" readonly name="" >
                                         </div>
                                     </div>
 
@@ -75,7 +75,7 @@
                                             </label>
                                         </div>
                                         <div class="input-area"> 
-                                            <input type="number" placeholder="+01 2345 67890" readonly name="" id="">
+                                            <input type="number" placeholder="+01 2345 67890" readonly name="" >
                                         </div>
                                     </div>
 
@@ -86,7 +86,7 @@
                                             </label>
                                         </div>
                                         <div class="input-area"> 
-                                            <input type="text" placeholder="03 Jun 1990" readonly name="" id="">
+                                            <input type="text" placeholder="03 Jun 1990" readonly name="" >
                                         </div>
                                     </div>
 
@@ -97,7 +97,7 @@
                                             </label>
                                         </div>
                                         <div class="input-area"> 
-                                            <input type="text" placeholder="8800 Orchard Lake Road, Suite 180 Farmington Hills, U.S.A." readonly name="" id="">
+                                            <input type="text" placeholder="8800 Orchard Lake Road, Suite 180 Farmington Hills, U.S.A." readonly name="" >
                                         </div>
                                     </div>
 
@@ -123,8 +123,8 @@
                                             </div>
                                             <div class="change-password-area mt-5">
                                                 <h3 class="pro-title mt-0">Password Reset</h3>
-                                                <input class="password-input" placeholder="New Password*" type="password" name="" id="">
-                                                <input class="password-input mb-0" placeholder="Confirm Password*" type="password" name="" id="">
+                                                <input class="password-input" placeholder="New Password*" type="password" name="" >
+                                                <input class="password-input mb-0" placeholder="Confirm Password*" type="password" name="" >
                                             </div>
                                             <div class="mt-5">
                                                 <button type="button" class="theme-btn">Update</button>

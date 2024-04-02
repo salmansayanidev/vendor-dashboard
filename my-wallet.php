@@ -43,7 +43,7 @@
                             <h2 class="show-blance">$123.00</h2>
                         </div>
                         <div class="table-parent">
-                            <table class="datatables-ajax table-responsive table-stripe table" id="my_wallet">
+                            <table class="datatables-ajax table-responsive table-stripe table theme-tabel" id="my_wallet">
                                 <thead>
                                     <tr>
                                         <th>Sr.#</th>
