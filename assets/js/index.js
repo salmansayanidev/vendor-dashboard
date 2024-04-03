@@ -85,7 +85,6 @@ chart.render();
 //       alignLabels: false,
 //     })
 //   );
-  
 
 //   series.labels.template.setAll({
 //     textType: "circular",
@@ -100,8 +99,6 @@ chart.render();
 //     { value: 9, category: "Two" },
 //     { value: 6, category: "Three" },
 //   ]);
-
-  
 
 //   // Create legend
 //   // https://www.amcharts.com/docs/v5/charts/percent-charts/legend-percent-series/
@@ -120,16 +117,6 @@ chart.render();
 //   // https://www.amcharts.com/docs/v5/concepts/animations/#Animation_of_series
 //   series.appear(1000, 100);
 // }); // end am5.ready()
-
-
-
-
-
-
-
-
-
-
 
 am5.ready(function () {
   // Create root element
@@ -160,7 +147,7 @@ am5.ready(function () {
     centerX: 0,
     centerY: 0,
     fontSize: 12, // Set font size
-    fontWeight : 500,
+    fontWeight: 500,
   });
 
   // Set data
@@ -169,11 +156,10 @@ am5.ready(function () {
     { value: 9, category: "Double" },
     { value: 6, category: "Apartments" },
   ]);
-  
 
   // Hide legend
   // chart.children.remove(legend);
 
   // Play initial series animation
   series.appear(1000, 100);
-}); 
+});

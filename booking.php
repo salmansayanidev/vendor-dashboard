@@ -17,7 +17,7 @@
                     <h1 class="section-main-title theme-color mb-0">My Bookings</h1>
                 </div>
                 <div class="col-12">
-                    <div class="booking-charge-tabel-area">
+                    <div class="booking-charge-tabel-area position-relative">
                         <div class="section-sb-title-area">
                             <div class="">
                                 <h2 class="section-sb-title">Room Booking Charge</h2>
@@ -69,7 +69,7 @@
                                                 <button type="button" class="action-btn delete-btn">
                                                     <i class="fa-solid fa-trash"></i>
                                                 </button>
-                                                <button type="button" class="action-btn edit-btn">
+                                                <button type="button"  onclick="bookingPopup()" class="action-btn edit-btn">
                                                     <i class="fa-solid fa-pen"></i>
                                                 </button>
                                             </div>
@@ -91,7 +91,7 @@
                                                 <button type="button" class="action-btn delete-btn">
                                                     <i class="fa-solid fa-trash"></i>
                                                 </button>
-                                                <button type="button" class="action-btn edit-btn">
+                                                <button type="button"  onclick="bookingPopup()" class="action-btn edit-btn">
                                                     <i class="fa-solid fa-pen"></i>
                                                 </button>
                                             </div>
@@ -113,7 +113,7 @@
                                                 <button type="button" class="action-btn delete-btn">
                                                     <i class="fa-solid fa-trash"></i>
                                                 </button>
-                                                <button type="button" class="action-btn edit-btn">
+                                                <button type="button"  onclick="bookingPopup()" class="action-btn edit-btn">
                                                     <i class="fa-solid fa-pen"></i>
                                                 </button>
                                             </div>
@@ -135,7 +135,7 @@
                                                 <button type="button" class="action-btn delete-btn">
                                                     <i class="fa-solid fa-trash"></i>
                                                 </button>
-                                                <button type="button" class="action-btn edit-btn">
+                                                <button type="button"  onclick="bookingPopup()" class="action-btn edit-btn">
                                                     <i class="fa-solid fa-pen"></i>
                                                 </button>
                                             </div>
@@ -157,7 +157,7 @@
                                                 <button type="button" class="action-btn delete-btn">
                                                     <i class="fa-solid fa-trash"></i>
                                                 </button>
-                                                <button type="button" class="action-btn edit-btn">
+                                                <button type="button"  onclick="bookingPopup()" class="action-btn edit-btn">
                                                     <i class="fa-solid fa-pen"></i>
                                                 </button>
                                             </div>
@@ -179,7 +179,7 @@
                                                 <button type="button" class="action-btn delete-btn">
                                                     <i class="fa-solid fa-trash"></i>
                                                 </button>
-                                                <button type="button" class="action-btn edit-btn">
+                                                <button type="button"  onclick="bookingPopup()" class="action-btn edit-btn">
                                                     <i class="fa-solid fa-pen"></i>
                                                 </button>
                                             </div>
@@ -201,7 +201,7 @@
                                                 <button type="button" class="action-btn delete-btn">
                                                     <i class="fa-solid fa-trash"></i>
                                                 </button>
-                                                <button type="button" class="action-btn edit-btn">
+                                                <button type="button"  onclick="bookingPopup()" class="action-btn edit-btn">
                                                     <i class="fa-solid fa-pen"></i>
                                                 </button>
                                             </div>
@@ -223,7 +223,7 @@
                                                 <button type="button" class="action-btn delete-btn">
                                                     <i class="fa-solid fa-trash"></i>
                                                 </button>
-                                                <button type="button" class="action-btn edit-btn">
+                                                <button type="button"  onclick="bookingPopup()" class="action-btn edit-btn">
                                                     <i class="fa-solid fa-pen"></i>
                                                 </button>
                                             </div>
@@ -245,7 +245,7 @@
                                                 <button type="button" class="action-btn delete-btn">
                                                     <i class="fa-solid fa-trash"></i>
                                                 </button>
-                                                <button type="button" class="action-btn edit-btn">
+                                                <button type="button"  onclick="bookingPopup()" class="action-btn edit-btn">
                                                     <i class="fa-solid fa-pen"></i>
                                                 </button>
                                             </div>
@@ -267,7 +267,7 @@
                                                 <button type="button" class="action-btn delete-btn">
                                                     <i class="fa-solid fa-trash"></i>
                                                 </button>
-                                                <button type="button" class="action-btn edit-btn">
+                                                <button type="button"  onclick="bookingPopup()" class="action-btn edit-btn">
                                                     <i class="fa-solid fa-pen"></i>
                                                 </button>
                                             </div>
@@ -275,6 +275,89 @@
                                     </tr>
                                 </tbody>
                             </table>
+                        </div>
+                        <div class="booking-popup-wrap">
+                            <div class="booking-popup-main">
+                                <div class="popup-top">
+                                    <div class="name-pro-area">
+                                        <img class="img-fluid pop-pro-img" src="./assets/images/pop-pro-img.png" alt="">
+                                        <h4 class="name">Amelia Deo</h4>
+                                    </div>
+                                    <div class="pop-cls-btn-area">
+                                        <button type="button" onclick="bookingPopupClose()" class="pop-cls-btn"><i class="fa-solid fa-xmark"></i></button>
+                                    </div>
+                                </div>
+                                <div class="popup-center">
+                                    <div class="popup-fields-area">
+                                        <label class="pop-field-name">Name</label>
+                                        <div class="position-relative">
+                                            <input class="pop-field-input mt-0" type="text" placeholder="Amelia Deo" name="" id="">
+                                            <i class="fa-solid fa-user-nurse field-icon"></i>
+                                        </div>
+                                    </div>
+                                    <div class="popup-fields-area">
+                                        <label class="pop-field-name">Gender</label>
+                                        <div class="position-relative">
+                                            <select class="form-select pop-field-input" aria-label="Default select example">
+                                                <option selected>Female</option>
+                                                <option value="1">Male</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="popup-fields-area">
+                                        <label class="pop-field-name">Mobile</label>
+                                        <div class="position-relative">
+                                            <input class="pop-field-input mt-0" type="number" placeholder="1234567890" name="" id="">
+                                            <i class="fa-solid fa-phone field-icon"></i>
+                                        </div>
+                                    </div>
+                                    <div class="popup-fields-area">
+                                        <label class="pop-field-name">Email</label>
+                                        <div class="position-relative">
+                                            <input class="pop-field-input mt-0" type="email" placeholder="test@email.com" name="" id="">
+                                            <i class="fa-solid fa-envelope field-icon"></i>
+                                        </div>
+                                    </div>
+                                    <div class="popup-fields-area">
+                                        <label class="pop-field-name">Arrive Date</label>
+                                        <div class="position-relative">
+                                            <input class="pop-field-input mt-0" type="text" placeholder="15-03-2024" readonly name="from" id="">
+                                            <i class="fa-solid fa-calendar-days field-icon"></i>
+                                        </div>
+                                    </div>
+                                    <div class="popup-fields-area">
+                                        <label class="pop-field-name">Depart Date</label>
+                                        <div class="position-relative">
+                                            <input class="pop-field-input mt-0" type="text" placeholder="12-04-2024" readonly name="to" id="">
+                                            <i class="fa-solid fa-calendar-days field-icon"></i>
+                                        </div>
+                                    </div>
+                                    <div class="popup-fields-area">
+                                        <label class="pop-field-name">Room Type</label>
+                                        <div class="position-relative">
+                                            <select class="form-select pop-field-input" aria-label="Default select example">
+                                                <option selected>Single</option>
+                                                <option value="1">Double</option>
+                                                <option value="2">Apartment</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="popup-fields-area">
+                                        <label class="pop-field-name">Payments</label>
+                                        <div class="position-relative">
+                                            <select class="form-select pop-field-input" aria-label="Default select example">
+                                                <option selected>Paid</option>
+                                                <option value="1">Unpaid</option>
+                                                <option value="2">Pending</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popup-btm">
+                                    <button class="theme-btn save" type="button">Save</button>
+                                    <button class="theme-btn cancel" onclick="bookingPopupCan()" type="button">Cancel</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -285,56 +368,13 @@
 
 
 
+
+
+
 <?php
     include "footer.php";
 ?>
 
-<script>
-    $(function () {
+<script src="./assets/js/booking.js"></script>
 
-        $("#my_booking").DataTable({
-        processing: true,
-        language: {
-            paginate: {
-            previous: '<i class="fa-solid fa-angle-left"></i>',
-            next: '<i class="fa-solid fa-angle-right"></i>',
-            },
-        },
-        columns: [
-            {
-                data: "",
-            },
-            {
-                data: "Image",
-            },
-            {
-                data: "Name",
-            },
-            {
-                data: "Gender",
-            },
-            {
-                data: "Mobile",
-            },
-            {
-                data: "Emails",
-            },
-            {
-                data: "Arrive",
-            },
-            {
-                data: "Depart",
-            },
-            {
-                data: "Room Type",
-            },
-            {
-                data: "Payment",
-            },
-            {
-                data: "Actions",
-            },
-        ],
-        });
-    });
-</script>
+
