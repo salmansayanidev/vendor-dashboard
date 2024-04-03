@@ -61,7 +61,7 @@
                                                     <i class="fa-solid fa-ellipsis-vertical"></i>
                                                 </button>
                                                 <ul class="dropdown-menu">
-                                                    <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Action</a></li>
+                                                    <li><a class="dropdown-item user-pro-drop" href="payment-detail.php">Payment Detail</a></li>
                                                     <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Another action</a></li>
                                                     <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Something else here</a></li>
                                                 </ul>
@@ -82,7 +82,7 @@
                                                     <i class="fa-solid fa-ellipsis-vertical"></i>
                                                 </button>
                                                 <ul class="dropdown-menu">
-                                                    <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Action</a></li>
+                                                    <li><a class="dropdown-item user-pro-drop" href="payment-detail.php">Payment Detail</a></li>
                                                     <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Another action</a></li>
                                                     <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Something else here</a></li>
                                                 </ul>
@@ -103,7 +103,7 @@
                                                     <i class="fa-solid fa-ellipsis-vertical"></i>
                                                 </button>
                                                 <ul class="dropdown-menu">
-                                                    <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Action</a></li>
+                                                    <li><a class="dropdown-item user-pro-drop" href="payment-detail.php">Payment Detail</a></li>
                                                     <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Another action</a></li>
                                                     <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Something else here</a></li>
                                                 </ul>
@@ -124,7 +124,7 @@
                                                     <i class="fa-solid fa-ellipsis-vertical"></i>
                                                 </button>
                                                 <ul class="dropdown-menu">
-                                                    <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Action</a></li>
+                                                    <li><a class="dropdown-item user-pro-drop" href="payment-detail.php">Payment Detail</a></li>
                                                     <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Another action</a></li>
                                                     <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Something else here</a></li>
                                                 </ul>
@@ -145,7 +145,7 @@
                                                     <i class="fa-solid fa-ellipsis-vertical"></i>
                                                 </button>
                                                 <ul class="dropdown-menu">
-                                                    <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Action</a></li>
+                                                    <li><a class="dropdown-item user-pro-drop" href="payment-detail.php">Payment Detail</a></li>
                                                     <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Another action</a></li>
                                                     <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Something else here</a></li>
                                                 </ul>
@@ -166,7 +166,7 @@
                                                     <i class="fa-solid fa-ellipsis-vertical"></i>
                                                 </button>
                                                 <ul class="dropdown-menu">
-                                                    <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Action</a></li>
+                                                    <li><a class="dropdown-item user-pro-drop" href="payment-detail.php">Payment Detail</a></li>
                                                     <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Another action</a></li>
                                                     <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Something else here</a></li>
                                                 </ul>
@@ -187,7 +187,7 @@
                                                     <i class="fa-solid fa-ellipsis-vertical"></i>
                                                 </button>
                                                 <ul class="dropdown-menu">
-                                                    <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Action</a></li>
+                                                    <li><a class="dropdown-item user-pro-drop" href="payment-detail.php">Payment Detail</a></li>
                                                     <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Another action</a></li>
                                                     <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Something else here</a></li>
                                                 </ul>
@@ -208,7 +208,7 @@
                                                     <i class="fa-solid fa-ellipsis-vertical"></i>
                                                 </button>
                                                 <ul class="dropdown-menu">
-                                                    <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Action</a></li>
+                                                    <li><a class="dropdown-item user-pro-drop" href="payment-detail.php">Payment Detail</a></li>
                                                     <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Another action</a></li>
                                                     <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Something else here</a></li>
                                                 </ul>
@@ -229,7 +229,7 @@
                                                     <i class="fa-solid fa-ellipsis-vertical"></i>
                                                 </button>
                                                 <ul class="dropdown-menu">
-                                                    <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Action</a></li>
+                                                    <li><a class="dropdown-item user-pro-drop" href="payment-detail.php">Payment Detail</a></li>
                                                     <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Another action</a></li>
                                                     <li><a class="dropdown-item user-pro-drop" href="javascipt:void()">Something else here</a></li>
                                                 </ul>

@@ -86,7 +86,7 @@
                                             </label>
                                         </div>
                                         <div class="input-area"> 
-                                            <input type="text" placeholder="03 Jun 1990" readonly name="" >
+                                            <input type="number" placeholder="03 Jun 1990" readonly name="" >
                                         </div>
                                     </div>
 
@@ -103,10 +103,10 @@
 
                                     <div class="theme-btn-area">
                                         <div class="">
-                                            <button type="button" class="theme-btn">Edit Profile</button>
+                                            <button type="button" class="theme-btn edit-profile-btn">Edit Profile</button>
                                         </div>
                                         <div class="save-cancel-area">
-                                            <button type="button" class="theme-btn">Cancel</button>
+                                            <button type="button" class="theme-btn cancle-profile-btn">Cancel</button>
                                             <button type="button" class="theme-btn">Save</button>    
                                         </div>
                                     </div>
@@ -148,21 +148,6 @@
 ?>
 
 
+<script src="./assets/js/profile.js"></script>
 
-<script>
-    let noimage = "./assets/images/blank-pro-img.png";
 
-    function readURL(input) {
-        console.log(input.files);
-        if (input.files && input.files[0]) {
-            var reader = new FileReader();
-            reader.onload = function (e) {
-            $("#img-preview").attr("src", e.target.result);
-            };
-
-            reader.readAsDataURL(input.files[0]);
-        } else {
-            $("#img-preview").attr("src", noimage);
-        }
-    }
-</script>
