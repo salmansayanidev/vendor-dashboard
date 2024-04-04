@@ -22,7 +22,7 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type=number] {
+input[type="number"] {
   -moz-appearance: textfield;
 }
 @font-face {
@@ -902,8 +902,6 @@ button.edit-profile-btn:disabled {
   border-color: #2b32821c;
 }
 
-
-
 /* profile screen end */
 
 /* review screen start  */
@@ -1522,7 +1520,8 @@ input {
   color: black !important;
   text-decoration: none !important;
 }
-.fc-theme-standard td, .fc-theme-standard th {
+.fc-theme-standard td,
+.fc-theme-standard th {
   border: 1px solid black;
 }
 .fc-non-business {
@@ -1537,12 +1536,12 @@ input {
 }
 .fc-event.fc-event-start.fc-event-end.fc-event-past.fc-bg-event {
   background-color: var(--theme-color) !important;
-} 
+}
 .fc-daygrid-day-bg {
-    background-color: black;
-    height: 100%;
-    position: relative;
-    width: 100%;
+  background-color: black;
+  height: 100%;
+  position: relative;
+  width: 100%;
 }
 .fc .fc-toolbar.fc-header-toolbar {
   margin-bottom: 30px;
@@ -1555,20 +1554,24 @@ input {
   background-color: black;
 } */
 
-
+.fc .fc-scrollgrid table {
+  border-left-style: solid !important;
+  border-right-style: hidden !important;
+  border-top-style: solid !important;
+}
 
 /* calendar screen end */
 
-
 /* popup css start */
 
-.booking-popup-wrap, .rental-popup-wrap {
+.booking-popup-wrap,
+.rental-popup-wrap {
   height: 100%;
   width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50% , -50%);
+  transform: translate(-50%, -50%);
   display: none;
   justify-content: center;
   align-items: center;
@@ -1612,7 +1615,7 @@ input {
   height: 35px;
   width: 35px;
   border-radius: 50%;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   border: none;
   display: flex;
   justify-content: center;
@@ -1670,9 +1673,9 @@ input {
 }
 .theme-btn.cancel {
   background-color: transparent;
-  color: #BC1A25;
+  color: #bc1a25;
   transition: 0.5s;
-  border: 2px solid #BC1A25;
+  border: 2px solid #bc1a25;
 }
 .popup-btm {
   display: flex;
@@ -1682,8 +1685,6 @@ input {
 }
 
 /* popup css end */
-
-
 
 /* booking detail screen start */
 .bookin-map {
@@ -1757,8 +1758,6 @@ input {
 }
 /* booking detail screen end */
 
-
-
 /* vehicle screen start */
 .vehicles-listing-area {
   background-color: white;
@@ -1816,7 +1815,6 @@ img.img-fluid.vehicle-lis-img {
 }
 /* vehicle screen end  */
 
-
 /* payment detail screen start */
 .payment-detail-main-area {
   display: flex;
@@ -1839,3 +1837,88 @@ img.img-fluid.vehicle-lis-img {
   height: 750px;
 }
 /* payment detail screen end */
+
+.registration-form-section {
+  padding: 50px;
+}
+/* #container {
+  max-width: 550px;  
+} */
+
+.step-container {
+  position: relative;
+  text-align: center;
+  transform: translateY(0);
+  margin-bottom: 20px;
+}
+
+.step-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--sb-title-color);
+  border: 2px solid var(--bg-green);
+  line-height: 30px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  cursor: pointer; /* Added cursor pointer */
+  color: white;
+  font-family: var(--Roboto-Regular);
+  font-size: 1.4rem;
+}
+
+.step-line {
+  position: absolute;
+  top: 16px;
+  left: 50px;
+  width: calc(100% - 100px);
+  height: 2px;
+  background-color: #007bff;
+  z-index: -1;
+}
+
+#multi-step-form {
+  overflow-x: hidden;
+  margin-top: 50px;
+  box-shadow: 0 0 10px 3px #0000001f;
+  border-radius: 20px;
+  padding: 30px 30px;
+}
+
+.progress-bar {
+  background-color: var(--theme-color);
+}
+.form-btn-area {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.step-form-title {
+  font-size: 3rem;
+  font-family: var(--Roboto-Bold);
+  color: var(--theme-color);
+  margin-bottom: 20px;
+}
+.form-input {
+  font-size: 1.6rem;
+  border-radius: 5px;
+  border: 1px solid #00000066;
+  width: 100%;
+  height: 50px;
+  padding: 10px 15px;
+  font-family: var(--Roboto-Regular);
+  color: black;
+  margin-top: 0;
+  outline: none;
+}
+.form-input::placeholder {
+  font-size: 1.6rem;
+  color: #00000099;
+  font-family: var(--Roboto-Regular);
+}
+.form-field-area {
+  margin-bottom: 20px;
+}
