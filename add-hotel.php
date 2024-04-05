@@ -50,12 +50,257 @@
                                             <div class="step step-1 animate__fadeInRight">
                                                 <!-- Step 1 form fields here -->
                                                 <div class="add-hotel-area">
-                                                    <h2 class="step-form-title">Basic Info</h2>
-                                                    <div class="form-field-area">
-                                                        <input class="form-input" type="text" placeholder="Room Rent" name="" id="">
-                                                    </div>
-                                                    <div class="form-field-area">
-                                                        <input class="form-input" type="text" placeholder="Per Day Rent" name="" id="">
+                                                    <h2 class="step-form-title">What type of place do you have?</h2>
+                                                    <div class="place-radio-main">
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="home">
+                                                            <label class="place-label" for="home">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-1.svg" alt="">
+                                                                <span class="place-name">House</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Apartment">
+                                                            <label class="place-label" for="Apartment">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-2.svg" alt="">
+                                                                <span class="place-name">Apartment</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Barn">
+                                                            <label class="place-label" for="Barn">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-3.svg" alt="">
+                                                                <span class="place-name">Barn</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Bed-breakfast">
+                                                            <label class="place-label" for="Bed-breakfast">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-4.svg" alt="">
+                                                                <span class="place-name">Bed & breakfast</span>
+                                                            </label>
+                                                        </div>
+                                                        
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Boat">
+                                                            <label class="place-label" for="Boat">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-5.svg" alt="">
+                                                                <span class="place-name">Boat</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Cabin">
+                                                            <label class="place-label" for="Cabin">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-6.svg" alt="">
+                                                                <span class="place-name">Cabin</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Camper-RV">
+                                                            <label class="place-label" for="Camper-RV">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-7.svg" alt="">
+                                                                <span class="place-name">Camper/RV</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Casa-particular">
+                                                            <label class="place-label" for="Casa-particular">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-8.svg" alt="">
+                                                                <span class="place-name">Casa particular</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Castle">
+                                                            <label class="place-label" for="Castle">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-9.svg" alt="">
+                                                                <span class="place-name">Castle</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Cave">
+                                                            <label class="place-label" for="Cave">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-10.svg" alt="">
+                                                                <span class="place-name">Cave</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Container">
+                                                            <label class="place-label" for="Container">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-11.svg" alt="">
+                                                                <span class="place-name">Container</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Cycladic-home">
+                                                            <label class="place-label" for="Cycladic-home">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-12.svg" alt="">
+                                                                <span class="place-name">Cycladic home</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Dammuso">
+                                                            <label class="place-label" for="Dammuso">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-13.svg" alt="">
+                                                                <span class="place-name">Dammuso</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Dome">
+                                                            <label class="place-label" for="Dome">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-14.svg" alt="">
+                                                                <span class="place-name">Dome</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Earth-home">
+                                                            <label class="place-label" for="Earth-home">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-15.svg" alt="">
+                                                                <span class="place-name">Earth home</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Farm">
+                                                            <label class="place-label" for="Farm">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-16.svg" alt="">
+                                                                <span class="place-name">Farm</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Guesthouse">
+                                                            <label class="place-label" for="Guesthouse">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-17.svg" alt="">
+                                                                <span class="place-name">Guesthouse</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Hotel">
+                                                            <label class="place-label" for="Hotel">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-18.svg" alt="">
+                                                                <span class="place-name">Hotel</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Houseboat">
+                                                            <label class="place-label" for="Houseboat">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-19.svg" alt="">
+                                                                <span class="place-name">Houseboat</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Kezhan">
+                                                            <label class="place-label" for="Kezhan">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-20.svg" alt="">
+                                                                <span class="place-name">Kezhan</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Minsu">
+                                                            <label class="place-label" for="Minsu">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-21.svg" alt="">
+                                                                <span class="place-name">Minsu</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Riad">
+                                                            <label class="place-label" for="Riad">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-22.svg" alt="">
+                                                                <span class="place-name">Riad</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Ryokan">
+                                                            <label class="place-label" for="Ryokan">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-23.svg" alt="">
+                                                                <span class="place-name">Ryokan</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Shepherd-hut">
+                                                            <label class="place-label" for="Shepherd-hut">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-24.svg" alt="">
+                                                                <span class="place-name">Shepherd’s hut</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Tent">
+                                                            <label class="place-label" for="Tent">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-25.svg" alt="">
+                                                                <span class="place-name">Tent</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Tiny-home">
+                                                            <label class="place-label" for="Tiny-home">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-26.svg" alt="">
+                                                                <span class="place-name">Tiny home</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Tower">
+                                                            <label class="place-label" for="Tower">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-27.svg" alt="">
+                                                                <span class="place-name">Tower</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Treehouse">
+                                                            <label class="place-label" for="Treehouse">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-28.svg" alt="">
+                                                                <span class="place-name">Treehouse</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Trullo">
+                                                            <label class="place-label" for="Trullo">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-29.svg" alt="">
+                                                                <span class="place-name">Trullo</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Windmill">
+                                                            <label class="place-label" for="Windmill">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-30.svg" alt="">
+                                                                <span class="place-name">Windmill</span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="place-radio-area">
+                                                            <input class="place-input" type="radio" name="place" id="Yurt">
+                                                            <label class="place-label" for="Yurt">
+                                                                <img class="img-fluid place-img" src="./assets/images/place-img-31.svg" alt="">
+                                                                <span class="place-name">Yurt</span>
+                                                            </label>
+                                                        </div>
+                                                        
                                                     </div>
                                                 </div>
                                                 <div class="form-btn-area">
@@ -67,100 +312,547 @@
                                     <div class="row">
                                         <div class="col-12">
                                             <div class="step step-2">
-                                                <!-- Step 9 form fields here -->
-                                                <div class="row">
-                                                    <div class="col-12 col-lg-6">
-                                                        <h3 class="form-title">Account Security</h3>
-                                                        <p class="form-para center pad-r">These questions help us keep your account secure.</p>
+                                                <!-- Step 2 form fields here -->
+                                                <div class="add-hotel-area">
+                                                    <h2 class="step-form-title">Basic Info</h2>
+                                                    <div class="form-field-area">
+                                                        <input class="form-input" type="text" placeholder="Room /Place Name" name="" id="">
                                                     </div>
-                                                    <div class="col-lg-6 col-12">
-                                                        <div class="row">
-                                                            <div class="col-12">
-                                                                <div class="">
-                                                                    <p class="yes-no-label mb-3">Select a primary security question</p>
+                                                    <div class="form-field-area">
+                                                        <textarea class="form-input" name="" id="" placeholder="Description" cols="30" rows="10"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="form-btn-area">
+                                                    <button type="button" class="theme-btn btn btn-primary prev-step">Previous</button>
+                                                    <button type="button" class="theme-btn btn btn-primary next-step">Next</button>
+                                                    <!-- <button type="submit" class="btn btn-success">Submit</button> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="step step-3">
+                                                <!-- Step 3 form fields here -->
+                                                <h2 class="step-form-title">What will the guests have?</h2>
+                                                <div class="guest-have-main">
+
+                                                    <div class="guest-have-area">
+                                                        <input class="guest-have-input" type="radio" name="guest-have" id="entire-place">
+                                                        <label class="guest-have-label" for="entire-place">
+                                                            <div class="guest-have-inner">
+                                                                <h3 class="guest-have-title">An entire place</h3>
+                                                                <p class="guest-have-para">Guests have the whole place to themselves.</p>
+                                                            </div>
+                                                            <div class="guest-have-inner">
+                                                                <img class="guest-have-img img-fluid" src="./assets/images/guest-have-img-1.svg" alt="">
+                                                            </div>
+                                                        </label>
+                                                    </div>
+
+                                                    <div class="guest-have-area">
+                                                        <input class="guest-have-input" type="radio" name="guest-have" id="a-room">
+                                                        <label class="guest-have-label" for="a-room">
+                                                            <div class="guest-have-inner">
+                                                                <h3 class="guest-have-title">A room</h3>
+                                                                <p class="guest-have-para">Guests have their own room in a home, plus access to shared spaces.</p>
+                                                            </div>
+                                                            <div class="guest-have-inner">
+                                                                <img class="guest-have-img img-fluid" src="./assets/images/guest-have-img-2.svg" alt="">
+                                                            </div>
+                                                        </label>
+                                                    </div>
+
+                                                    <div class="guest-have-area">
+                                                        <input class="guest-have-input" type="radio" name="guest-have" id="shared-room">
+                                                        <label class="guest-have-label" for="shared-room">
+                                                            <div class="guest-have-inner">
+                                                                <h3 class="guest-have-title">A shared room</h3>
+                                                                <p class="guest-have-para">Guests sleep in a room or common area that may be shared with you or others.</p>
+                                                            </div>
+                                                            <div class="guest-have-inner">
+                                                                <img class="guest-have-img img-fluid" src="./assets/images/guest-have-img-3.svg" alt="">
+                                                            </div>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-btn-area">
+                                                    <button type="button" class="theme-btn btn btn-primary prev-step">Previous</button>
+                                                    <button type="button" class="theme-btn btn btn-primary next-step">Next</button>
+                                                    <!-- <button type="submit" class="btn btn-success">Submit</button> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="step step-4">
+                                                <!-- Step 4 form fields here -->
+                                                <h2 class="step-form-title">Where's your place located?</h2>
+                                                <div class="location-main">
+                                                    <div class="map-area position-relative">
+                                                        <iframe class="form-map w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193596.0106908701!2d-74.14482897134818!3d40.69737043484594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1712266320720!5m2!1sen!2s" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                        <div class="location-input-area">
+                                                            <i class="fa-solid fa-location-dot"></i>
+                                                            <input class="location-input" placeholder="Where's your place located?" type="text" name="" id="">
+                                                        </div>
+                                                    </div>
+                                                    <h2 class="form-sb-title">Address</h2>
+
+                                                    <div class="location-fields-area">
+                                                        <div class="form-field-area">
+                                                            <input class="form-input" type="text" placeholder="Street Address" name="" id="">
+                                                        </div>
+                                                        <div class="form-field-area">
+                                                            <input class="form-input" type="text" placeholder="Country" name="" id="">
+                                                        </div>
+                                                        <div class="form-field-area">
+                                                            <input class="form-input" type="text" placeholder="State" name="" id="">
+                                                        </div>
+                                                        <div class="form-field-area">
+                                                            <input class="form-input" type="text" placeholder="city" name="" id="">
+                                                        </div>
+                                                        <div class="form-field-area">
+                                                            <input class="form-input" type="text" placeholder="zipcode" name="" id="">
+                                                        </div>
+                                                   </div>
+                                                </div>
+
+                                                <div class="form-btn-area">
+                                                    <button type="button" class="theme-btn btn btn-primary prev-step">Previous</button>
+                                                    <button type="button" class="theme-btn btn btn-primary next-step">Next</button>
+                                                    <!-- <button type="submit" class="btn btn-success">Submit</button> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="step step-5">
+                                                <!-- Step 4 form fields here -->
+                                                <h2 class="step-form-title">How many people can stay here?</h2>
+                                                <div class="row justify-content-center">
+                                                    <div class="col-12 col-lg-10">
+                                                        <div class="people-count-main">
+
+                                                            <div class="people-count-area">
+                                                                <div>
+                                                                    <h4 class="people-count-title">Guests</h4>
                                                                 </div>
-                                                                <div class="form-question-area mb-4">
-                                                                    <div class="mb-3 form-question-input-area">
-                                                                        <input class="yes-no-input" type="radio" name="pri-security-ques" id="pri-security-ques-1">
-                                                                        <label class="yes-no-label" for="pri-security-ques-1">What was the name of your elementary school?</label>
-                                                                    </div>
-                                                                    <div class="mb-3 form-question-input-area">
-                                                                        <input class="yes-no-input" type="radio" name="pri-security-ques" id="pri-security-ques-2">
-                                                                        <label class="yes-no-label" for="pri-security-ques-2">What was the name of your favorite childhood friend?</label>
-                                                                    </div>
-                                                                    <div class="mb-3 form-question-input-area">
-                                                                        <input class="yes-no-input" type="radio" name="pri-security-ques" id="pri-security-ques-3">
-                                                                        <label class="yes-no-label" for="pri-security-ques-3">What was the name of your childhood pet?</label>
-                                                                    </div>
-                                                                    <span class="required-span"></span>
+                                                                <div class="counter-area">
+                                                                    <button type="button" class="decrement count-btn">
+                                                                        <i class="fa-solid fa-minus"></i>    
+                                                                    </button>
+                                                                    <input class="count count-input" placeholder="0"  value="0" name="" />
+                                                                    <button type="button" class="increment count-btn">
+                                                                        <i class="fa-solid fa-plus"></i>
+                                                                    </button>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-12">
-                                                                <label class="yes-no-label mb-3">
-                                                                    Primary security answer
-                                                                </label>
-                                                                <div class="forms-fields-area mb-5">
-                                                                    <div class="did-floating-label-content did-error-input step-form-field-area">
-                                                                        <i class="fa-solid fa-envelope"></i>
-                                                                        <input class="form-input did-floating-input" type="text" placeholder="Primary security answer">
-                                                                        <label class="did-floating-label">Primary security answer</label>
-                                                                    </div>
-                                                                    <span class="required-span"></span>
+                                                            <div class="people-count-area">
+                                                                <div>
+                                                                    <h4 class="people-count-title">Bedrooms</h4>
+                                                                </div>
+                                                                <div class="counter-area">
+                                                                    <button type="button" class="decrement count-btn">
+                                                                        <i class="fa-solid fa-minus"></i>    
+                                                                    </button>
+                                                                    <input class="count count-input" placeholder="0"  value="0" name="" />
+                                                                    <button type="button" class="increment count-btn">
+                                                                        <i class="fa-solid fa-plus"></i>
+                                                                    </button>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-12">
-                                                                <div class="">
-                                                                    <p class="yes-no-label mb-3">Select a backup security question</p>
+                                                            <div class="people-count-area">
+                                                                <div>
+                                                                    <h4 class="people-count-title">Beds</h4>
                                                                 </div>
-                                                                <div class="form-question-area mb-4">
-                                                                    <div class="mb-3 form-question-input-area">
-                                                                        <input class="yes-no-input" type="radio" name="back-security-ques" id="back-security-ques-1">
-                                                                        <label class="yes-no-label" for="back-security-ques-1">What street did you live on in third grade?</label>
-                                                                    </div>
-                                                                    <div class="mb-3 form-question-input-area">
-                                                                        <input class="yes-no-input" type="radio" name="back-security-ques" id="back-security-ques-2">
-                                                                        <label class="yes-no-label" for="back-security-ques-2">What is your oldest sibling's birth month?</label>
-                                                                    </div>
-                                                                    <div class="mb-3 form-question-input-area">
-                                                                        <input class="yes-no-input" type="radio" name="back-security-ques" id="back-security-ques-3">
-                                                                        <label class="yes-no-label" for="back-security-ques-3">In what city did your parents meet?</label>
-                                                                    </div>
-                                                                    <span class="required-span"></span>
+                                                                <div class="counter-area">
+                                                                    <button type="button" class="decrement count-btn">
+                                                                        <i class="fa-solid fa-minus"></i>    
+                                                                    </button>
+                                                                    <input class="count count-input" placeholder="0"  value="0" name="" />
+                                                                    <button type="button" class="increment count-btn">
+                                                                        <i class="fa-solid fa-plus"></i>
+                                                                    </button>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-12">
-                                                                <label class="yes-no-label mb-3">
-                                                                    Backup security answer
-                                                                </label>
-                                                                <div class="forms-fields-area mb-4">
-                                                                    <div class="did-floating-label-content did-error-input step-form-field-area">
-                                                                        <i class="fa-solid fa-envelope"></i>
-                                                                        <input class="form-input did-floating-input" type="text" placeholder="Backup security answer">
-                                                                        <label class="did-floating-label">Backup security answer</label>
-                                                                    </div>
-                                                                    <span class="required-span"></span>
+                                                            <div class="people-count-area">
+                                                                <div>
+                                                                    <h4 class="people-count-title">Bathrooms</h4>
+                                                                </div>
+                                                                <div class="counter-area">
+                                                                    <button type="button" class="decrement count-btn">
+                                                                        <i class="fa-solid fa-minus"></i>    
+                                                                    </button>
+                                                                    <input class="count count-input" placeholder="0"  value="0" name="" />
+                                                                    <button type="button" class="increment count-btn">
+                                                                        <i class="fa-solid fa-plus"></i>
+                                                                    </button>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-12">
-                                                                <div class="form-question-area mb-4">
-                                                                    <div class="mb-4 form-question-input-area">
-                                                                        <input class="yes-no-input" type="checkbox" name="agreed-terms" id="agreed-terms">
-                                                                        <label class="form-para text-black" for="agreed-terms">By checking this box, you acknowledge and agree that you have read and agreed to the terms below.</label>
-                                                                    </div>
-                                                                    <span class="required-span"></span>
-                                                                    <p class="form-para">Betterment's <a href="#">privacy policy</a> and <a href="#">customer agreements</a>, which include the Brokerage Agreement, Advisory Agreement, consent to electronic delivery of documents and written communications, and other important agreements. You also acknowledge that you have received a copy of our <a href="#">Form CRS relationship summary</a> and <a href="#">Form ADV brochure.</a> Your advisory agreement contains a predispute arbitration clause highlighted in paragraph 34 on page 38. Your brokerage agreement contains a predispute arbitration clause highlighted in paragraph 37 on page 81.</p>
-                                                                </div>
-                                                            </div>
+
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <!-- <div class="mb-3">
-                                                    <label for="field1" class="form-label">Field 1:</label>
-                                                    <input type="text" class="form-control" id="" name="field1">
-                                                </div> -->
                                                 <div class="form-btn-area">
-                                                    <!-- <button type="button" class="btn btn-primary prev-step">Previous</button> -->
-                                                    <button type="submit" class="btn btn-success">Submit</button>
+                                                    <button type="button" class="theme-btn btn btn-primary prev-step">Previous</button>
+                                                    <button type="button" class="theme-btn btn btn-primary next-step">Next</button>
+                                                    <!-- <button type="submit" class="btn btn-success">Submit</button> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="step step-6">
+                                                <!-- Step 4 form fields here -->
+                                                <h2 class="step-form-title">SPACIFICATION</h2>
+                                                <div class="specicification-area">
+                                                    <h2 class="form-sb-title text-start">Features</h2>
+
+                                                    <div class="features-main">
+
+                                                        <div class="features-check-area">
+                                                            <input class="features-input" type="checkbox" name="fearture" id="wifi">
+                                                            <label class="features-label" for="wifi">
+                                                                <img class="img-fluid place-img" src="./assets/images/feature-img-1.svg" alt="">
+                                                                <span class="place-name">Wifi</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="features-check-area">
+                                                            <input class="features-input" type="checkbox" name="fearture" id="TV">
+                                                            <label class="features-label" for="TV">
+                                                                <img class="img-fluid place-img" src="./assets/images/feature-img-2.svg" alt="">
+                                                                <span class="place-name">TV</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="features-check-area">
+                                                            <input class="features-input" type="checkbox" name="fearture" id="Kitchen">
+                                                            <label class="features-label" for="Kitchen">
+                                                                <img class="img-fluid place-img" src="./assets/images/feature-img-3.svg" alt="">
+                                                                <span class="place-name">Kitchen</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="features-check-area">
+                                                            <input class="features-input" type="checkbox" name="fearture" id="Washer">
+                                                            <label class="features-label" for="Washer">
+                                                                <img class="img-fluid place-img" src="./assets/images/feature-img-4.svg" alt="">
+                                                                <span class="place-name">Washer</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="features-check-area">
+                                                            <input class="features-input" type="checkbox" name="fearture" id="Free-parking">
+                                                            <label class="features-label" for="Free-parking">
+                                                                <img class="img-fluid place-img" src="./assets/images/feature-img-5.svg" alt="">
+                                                                <span class="place-name">Free parking on premises</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="features-check-area">
+                                                            <input class="features-input" type="checkbox" name="fearture" id="air-conditioner">
+                                                            <label class="features-label" for="air-conditioner">
+                                                                <img class="img-fluid place-img" src="./assets/images/feature-img-6.svg" alt="">
+                                                                <span class="place-name">Air Conditioner</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="features-check-area">
+                                                            <input class="features-input" type="checkbox" name="fearture" id="Paid-parking">
+                                                            <label class="features-label" for="Paid-parking">
+                                                                <img class="img-fluid place-img" src="./assets/images/feature-img-7.svg" alt="">
+                                                                <span class="place-name">Paid parking on premises</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="features-check-area">
+                                                            <input class="features-input" type="checkbox" name="fearture" id="Dedicated-Workspace">
+                                                            <label class="features-label" for="Dedicated-Workspace">
+                                                                <img class="img-fluid place-img" src="./assets/images/feature-img-8.svg" alt="">
+                                                                <span class="place-name">Dedicated Workspace</span>
+                                                            </label>
+                                                        </div>
+                                                        
+                                                    </div>
+
+                                                    <h2 class="form-sb-title text-start">Special Features</h2>
+
+                                                    <div class="features-main">
+
+                                                        <div class="features-check-area">
+                                                            <input class="features-input" type="checkbox" name="special-fearture" id="Pool">
+                                                            <label class="features-label" for="Pool">
+                                                                <img class="img-fluid place-img" src="./assets/images/feature-img-9.svg" alt="">
+                                                                <span class="place-name">Pool</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="features-check-area">
+                                                            <input class="features-input" type="checkbox" name="special-fearture" id="Hot-Tub">
+                                                            <label class="features-label" for="Hot-Tub">
+                                                                <img class="img-fluid place-img" src="./assets/images/feature-img-10.svg" alt="">
+                                                                <span class="place-name">Hot Tub</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="features-check-area">
+                                                            <input class="features-input" type="checkbox" name="special-fearture" id="Fire-Pit">
+                                                            <label class="features-label" for="Fire-Pit">
+                                                                <img class="img-fluid place-img" src="./assets/images/feature-img-11.svg" alt="">
+                                                                <span class="place-name">Fire Pit</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="features-check-area">
+                                                            <input class="features-input" type="checkbox" name="special-fearture" id="Gym">
+                                                            <label class="features-label" for="Gym">
+                                                                <img class="img-fluid place-img" src="./assets/images/feature-img-12.svg" alt="">
+                                                                <span class="place-name">Gym</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="features-check-area">
+                                                            <input class="features-input" type="checkbox" name="special-fearture" id="Patio">
+                                                            <label class="features-label" for="Patio">
+                                                                <img class="img-fluid place-img" src="./assets/images/feature-img-13.svg" alt="">
+                                                                <span class="place-name">Patio</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="features-check-area">
+                                                            <input class="features-input" type="checkbox" name="special-fearture" id="BBQ-grill">
+                                                            <label class="features-label" for="BBQ-grill">
+                                                                <img class="img-fluid place-img" src="./assets/images/feature-img-14.svg" alt="">
+                                                                <span class="place-name">BBQ grill</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="features-check-area">
+                                                            <input class="features-input" type="checkbox" name="special-fearture" id="Outdoor-dining-area">
+                                                            <label class="features-label" for="Outdoor-dining-area">
+                                                                <img class="img-fluid place-img" src="./assets/images/feature-img-15.svg" alt="">
+                                                                <span class="place-name">Outdoor dining area</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="features-check-area">
+                                                            <input class="features-input" type="checkbox" name="special-fearture" id="Pool-table">
+                                                            <label class="features-label" for="Pool-table">
+                                                                <img class="img-fluid place-img" src="./assets/images/feature-img-16.svg" alt="">
+                                                                <span class="place-name">Pool table</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="features-check-area">
+                                                            <input class="features-input" type="checkbox" name="special-fearture" id="Indoor-fireplace">
+                                                            <label class="features-label" for="Indoor-fireplace">
+                                                                <img class="img-fluid place-img" src="./assets/images/feature-img-17.svg" alt="">
+                                                                <span class="place-name">Indoor fireplace</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="features-check-area">
+                                                            <input class="features-input" type="checkbox" name="special-fearture" id="Lake-access">
+                                                            <label class="features-label" for="Lake-access">
+                                                                <img class="img-fluid place-img" src="./assets/images/feature-img-18.svg" alt="">
+                                                                <span class="place-name">Lake access</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="features-check-area">
+                                                            <input class="features-input" type="checkbox" name="special-fearture" id="Beach-access">
+                                                            <label class="features-label" for="Beach-access">
+                                                                <img class="img-fluid place-img" src="./assets/images/feature-img-19.svg" alt="">
+                                                                <span class="place-name">Beach access</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="features-check-area">
+                                                            <input class="features-input" type="checkbox" name="special-fearture" id="Ski-in_Ski-out">
+                                                            <label class="features-label" for="Ski-in_Ski-out">
+                                                                <img class="img-fluid place-img" src="./assets/images/feature-img-20.svg" alt="">
+                                                                <span class="place-name">Ski in/Ski out</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="features-check-area">
+                                                            <input class="features-input" type="checkbox" name="special-fearture" id="Outdoor-shower">
+                                                            <label class="features-label" for="Outdoor-shower">
+                                                                <img class="img-fluid place-img" src="./assets/images/feature-img-21.svg" alt="">
+                                                                <span class="place-name">Outdoor shower</span>
+                                                            </label>
+                                                        </div>
+                                                        
+                                                    </div>
+
+                                                    <h2 class="form-sb-title text-start">Do you have any of these safety items?</h2>
+
+                                                    <div class="features-main">
+
+                                                        <div class="features-check-area">
+                                                            <input class="features-input" type="checkbox" name="safety-items" id="Smook-alarm">
+                                                            <label class="features-label" for="Smook-alarm">
+                                                                <img class="img-fluid place-img" src="./assets/images/feature-img-22.svg" alt="">
+                                                                <span class="place-name">Smook alarm</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="features-check-area">
+                                                            <input class="features-input" type="checkbox" name="safety-items" id="First-aid-kit">
+                                                            <label class="features-label" for="First-aid-kit">
+                                                                <img class="img-fluid place-img" src="./assets/images/feature-img-23.svg" alt="">
+                                                                <span class="place-name">First aid kit</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="features-check-area">
+                                                            <input class="features-input" type="checkbox" name="safety-items" id="Fire-extinguisher">
+                                                            <label class="features-label" for="Fire-extinguisher">
+                                                                <img class="img-fluid place-img" src="./assets/images/feature-img-24.svg" alt="">
+                                                                <span class="place-name">Fire extinguisher</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="features-check-area">
+                                                            <input class="features-input" type="checkbox" name="safety-items" id="Carbon-monoxide-alarm">
+                                                            <label class="features-label" for="Carbon-monoxide-alarm">
+                                                                <img class="img-fluid place-img" src="./assets/images/feature-img-25.svg" alt="">
+                                                                <span class="place-name">Carbon monoxide alarm</span>
+                                                            </label>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="form-btn-area">
+                                                    <button type="button" class="theme-btn btn btn-primary prev-step">Previous</button>
+                                                    <button type="button" class="theme-btn btn btn-primary next-step">Next</button>
+                                                    <!-- <button type="submit" class="btn btn-success">Submit</button> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="step step-7">
+                                                <!-- Step 4 form fields here -->
+                                                <h2 class="step-form-title">PRICE</h2>
+
+                                                <div class="row justify-content-center">
+                                                    <div class="col-12 col-md-10 col-lg-7">
+                                                        <div class="pricing-area">
+                                                            <div class="price-area">
+                                                                <div class="position-relative">
+                                                                    <input class="price-input" type="number" name="guess_price" value="{{ old('guess_price') }}" id="guess-price" placeholder="$1000">
+                                                                </div>
+                                                            </div>
+                                                            <div class="guest-price-tax-area">
+                                                                <button class="guest-price-tax guess-price-tax" type="button">Guest price before taxes
+                                                                    <i class="fa-solid fa-angle-down"></i>
+                                                                </button>
+                                                            </div>
+                                                            <div class="pricing-area-inner">
+                                                                <div class="show-price-area">
+                                                                    <div class="show-price-inner">
+                                                                        <span>Base Price</span>
+                                                                        <span class="guess-price">$500</span>
+                                                                    </div>
+                                                                    <div class="show-price-inner">
+                                                                        <span>Guest Sevice Fee</span>
+                                                                        <span class="guess-service-price">$100</span>
+                                                                    </div>
+                                                                    <div class="show-price-inner">
+                                                                        <span>Guest Price After Taxes</span>
+                                                                        <span class="guest-price-after-tax">$100</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="show-price-area">
+                                                                    <div class="show-price-inner">
+                                                                        <span>Plat Form Charge 20 %</span>
+                                                                        <span class="platform-service-charge">$100</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="show-price-area">
+                                                                    <div class="show-price-inner">
+                                                                        <span>You Earn 80 %</span>
+                                                                        <span class="user-earn">$100</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cop-similis-area">
+                                                            <button type="button" class="cop-similis">
+                                                                <i class="fa-solid fa-location-dot"></i>
+                                                                Compare similar listings
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="form-btn-area">
+                                                    <button type="button" class="theme-btn btn btn-primary prev-step">Previous</button>
+                                                    <button type="button" class="theme-btn btn btn-primary next-step">Next</button>
+                                                    <!-- <button type="submit" class="btn btn-success">Submit</button> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="step step-8">
+                                                <!-- Step 4 form fields here -->
+                                                <h2 class="step-form-title">Add Discounts</h2>
+                                                        
+                                                <div class="row justify-content-center">
+                                                    <div class="col-12 col-md-9 col-lg-8">
+                                                        <div class="add-discount">
+                                                            <label class="add-discount-label" for="For-24-Hours">
+                                                                <input class="add-discount-input" type="checkbox" name="discount" id="For-24-Hours">
+                                                                <div class="para-input dscount">
+                                                                    <div class="percnt-no-area">
+                                                                        <span class="percnt-no">10 %</span>
+                                                                    </div>
+                                                                    <div class="">
+                                                                        <h2 class="discount-title">For 24 Hours</h2>
+                                                                        <p class="discount-para">Guest have the whole place to themselves for 24 Hours </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="">
+                                                                    <i class="fa-solid fa-percent"></i>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="add-discount">
+                                                            <label class="add-discount-label" for="For-24-Hours">
+                                                                <input class="add-discount-input" type="checkbox" name="discount" id="For-24-Hours">
+                                                                <div class="para-input dscount">
+                                                                    <div class="percnt-no-area">
+                                                                        <span class="percnt-no">10 %</span>
+                                                                    </div>
+                                                                    <div class="">
+                                                                        <h2 class="discount-title">For 24 Hours</h2>
+                                                                        <p class="discount-para">Guest have the whole place to themselves for 24 Hours </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="">
+                                                                    <i class="fa-solid fa-percent"></i>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="add-discount">
+                                                            <label class="add-discount-label" for="For-24-Hours">
+                                                                <input class="add-discount-input" type="checkbox" name="discount" id="For-24-Hours">
+                                                                <div class="para-input dscount">
+                                                                    <div class="percnt-no-area">
+                                                                        <span class="percnt-no">10 %</span>
+                                                                    </div>
+                                                                    <div class="">
+                                                                        <h2 class="discount-title">For 24 Hours</h2>
+                                                                        <p class="discount-para">Guest have the whole place to themselves for 24 Hours </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="">
+                                                                    <i class="fa-solid fa-percent"></i>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                
+                                                <div class="form-btn-area">
+                                                    <button type="button" class="theme-btn btn btn-primary prev-step">Previous</button>
+                                                    <button type="button" class="theme-btn btn btn-primary next-step">Next</button>
+                                                    <!-- <button type="submit" class="btn btn-success">Submit</button> -->
                                                 </div>
                                             </div>
                                         </div>
@@ -188,3 +880,32 @@
 <script src="./assets/js/add-hotel.js"></script>
 
 
+<script>
+    $('.counter-area .increment').click(function() {
+        var countElement = $(this).siblings('.count-input');
+        var count = Number(countElement.val());
+        count++;
+        countElement.val(count);
+    });
+
+    $('.counter-area .decrement').click(function() {
+        var countElement = $(this).siblings('.count-input');
+        var count = Number(countElement.val());
+        if (count > 0) {
+            count--;
+            countElement.val(count);
+        }
+    });
+
+
+
+
+    const priceArea = document.querySelector('.pricing-area-inner')
+    const guestPriceArea = document.querySelector('.guest-price-tax')
+
+    guestPriceArea?.addEventListener('click', () => {
+        priceArea.classList.toggle('active')
+    })
+
+
+</script>

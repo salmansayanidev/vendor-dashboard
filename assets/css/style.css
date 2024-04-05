@@ -20,7 +20,6 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-
 /* Firefox */
 input[type="number"] {
   -moz-appearance: textfield;
@@ -53,6 +52,7 @@ input[type="number"] {
 html {
   overflow-x: hidden;
   font-size: 62%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -168,7 +168,33 @@ ul.dash-sb-nav-area {
   align-items: center;
   justify-content: space-between;
 }
-
+.menu-btn {
+  display: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: var(--sb-title-color);
+  font-size: 2.5rem;
+  border: none; 
+}
+button.menu-cls-btn {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  height: 30px;
+  width: 30px;
+  border: none;
+  background-color: var(--theme-color);
+  color: white;
+  font-size: 1.6rem;
+  border-radius: 50%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
 .dash-right-side {
   width: 100%;
   height: 100vh;
@@ -634,12 +660,10 @@ td {
   flex-wrap: wrap;
 }
 .area-chart {
-  max-width: 934px;
-  width: 100%;
+  width: 61%;
 }
 .pie-chart {
-  max-width: 575px;
-  width: 100%;
+  width: 37%;
 }
 #chartdiv {
   width: 100%;
@@ -1838,6 +1862,9 @@ img.img-fluid.vehicle-lis-img {
 }
 /* payment detail screen end */
 
+/* add hotel screeen start */
+
+
 .registration-form-section {
   padding: 50px;
 }
@@ -1895,16 +1922,20 @@ img.img-fluid.vehicle-lis-img {
   display: flex;
   justify-content: end;
   align-items: center;
+  margin-top: 30px;
+  gap: 10px;
 }
 .step-form-title {
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: var(--Roboto-Bold);
   color: var(--theme-color);
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  text-align: center;
 }
-.form-input {
+.form-input , 
+.location-input {
   font-size: 1.6rem;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid #00000066;
   width: 100%;
   height: 50px;
@@ -1914,6 +1945,10 @@ img.img-fluid.vehicle-lis-img {
   margin-top: 0;
   outline: none;
 }
+textarea.form-input {
+  resize: none;
+  height: 170px;
+}
 .form-input::placeholder {
   font-size: 1.6rem;
   color: #00000099;
@@ -1922,3 +1957,307 @@ img.img-fluid.vehicle-lis-img {
 .form-field-area {
   margin-bottom: 20px;
 }
+.place-input , .features-input {
+  display: none;
+}
+.place-radio-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px 0 ;
+}
+.place-radio-area {
+  width: 16%;
+}
+label.place-label , 
+label.features-label,
+label.add-discount-label {
+  width: 100%;
+  padding: 15px 14px;
+  border: 1px solid #c1c1c1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px 0;
+  cursor: pointer;
+}
+.place-name {
+  font-size: 1.6rem;
+  font-family: var(--Roboto-Medium);
+  color: black;
+}
+img.img-fluid.place-img {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 9px #000;
+  object-position: 5px;
+}
+input.place-input:checked + .place-label {
+  border: 1px solid var(--theme-color);
+  background: var(--theme-color);
+}
+input.place-input:checked + .place-label .place-name {
+  color: white;
+}
+.guest-have-input {
+  display: none;
+}
+label.guest-have-label {
+  width: 100%;
+  padding: 15px 14px;
+  border: 1px solid #c1c1c1;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.guest-have-area {
+  margin-bottom: 10px;
+}
+.guest-have-img {
+  max-width: 50px;
+  height: 50px;
+  width: 100%;
+}
+.guest-have-para {
+  font-size: 1.6rem;
+  font-family: var(--Roboto-Regular);
+  color: black;
+}
+
+.guest-have-title {
+  font-size: 2.5rem;
+  font-family: var(--Roboto-Bold);
+  color: var(--sb-title-color);
+  margin-bottom: 3px;
+}
+input.guest-have-input:checked + .guest-have-label {
+  border: 1px solid var(--theme-color);
+  background: var(--theme-color);
+}
+input.guest-have-input:checked + .guest-have-label .guest-have-para , 
+input.guest-have-input:checked + .guest-have-label .guest-have-title {
+  color: white;
+}
+input.guest-have-input:checked + .guest-have-label .guest-have-img {
+  filter: brightness(10);
+}
+.location-input-area {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40%;
+}
+.location-input {
+  border: 1px solid black;
+  padding: 10px 15px 10px 50px;
+}
+.location-input-area .fa-location-dot {
+  font-size: 2.5rem;
+  color: var(--sb-title-color);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px;
+}
+.form-sb-title {
+  font-size: 3rem;
+  font-family: var(--Roboto-Bold);
+  color: var(--sb-title-color);
+  margin: 30px 0 20px;
+  text-align: center;
+}
+.location-fields-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.location-fields-area .form-field-area {
+  width: 49.5%;
+}
+.people-count-title {
+  font-size: 2rem;
+  color: var(--sb-title-color);
+  font-family: var(--Roboto-Medium);
+}
+.people-count-area {
+  border-bottom: 1px solid #c1c1c1;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.counter-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.count-btn {
+  border-radius: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  width: 35px;
+  height: 35px;
+  border: 2px solid #000;
+  color: black;
+  background-color: transparent;
+}
+.count-input {
+  border: 2px solid;
+  text-align: center;
+  margin: 0 10px;
+  height: 33px;
+  width: 80px;
+  font-family: var(--Roboto-Medium);
+  font-size: 1.8rem;
+  color: black;
+}
+.people-count-main {
+  margin-top: 50px;
+}
+.features-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px 0;
+}
+.features-check-area {
+  width: 24%;
+}
+.features-input:checked + .features-label {
+  background-color: var(--theme-color);
+}
+.features-input:checked + .features-label .place-name {
+  color: white;
+}
+.pricing-area {
+  position: relative;
+  overflow: hidden;
+  padding: 0 20px;
+  margin-top: 0px;
+}
+.price-area {
+  position: relative;
+}
+input.price-input {
+  text-align: center;
+  width: 100%;
+  font-size: 7rem;
+  font-family: var(--Roboto-Black);
+  color: black;
+  padding: 10px 10px;
+  border: none;
+  outline: none;
+}
+input.price-input::placeholder {
+  font-size: 7rem;
+  font-family: var(--Roboto-Black);
+  color: black;
+}
+.guest-price-tax-area {
+  text-align: -webkit-center;
+}
+.guest-price-tax-area .guest-price-tax {
+  font-size: 1.8rem;
+  color: black;
+  background-color: transparent;
+  border: none;
+  font-family: var(--Roboto-Bold);
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.pricing-area-inner {
+  display: none;
+}
+.pricing-area-inner.active {
+  display: block;
+}
+.show-price-area {
+  padding: 20px 30px;
+  margin: 20px 0;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 0 0 18px 6px #00000038;
+  border-radius: 20px;
+}
+.show-price-inner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.show-price-inner span {
+  font-size: 1.8rem;
+  color: black;
+  font-family: var(--Roboto-Medium);
+}
+.show-price-area .show-price-inner:nth-child(2) {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid black;
+}
+.show-price-area .show-price-inner:nth-last-child(1) {
+  margin-bottom: 0;
+}
+.cop-similis-area {
+  text-align: -webkit-center;
+  margin: 50px 0;
+}
+button.cop-similis {
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: transparent;
+  font-size: 1.8rem;
+  font-family: var(--Roboto-Medium);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 0 5px 5px #0000001f;
+  border: none;
+}
+.add-discount-label {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+.add-discount {
+  margin-bottom: 20px;
+}
+.add-discount-input {
+  display: none;
+}
+.percnt-no-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #13063d;
+  padding: 5px 10px;
+}
+span.percnt-no {
+  font-size: 1.4rem;
+  color: white;
+  font-family: var(--Roboto-Medium);
+}
+.para-input.dscount {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.add-discount-label {
+  justify-content: space-between !important;
+  flex-direction: unset !important;
+}
+/* add hotel screeen end */
