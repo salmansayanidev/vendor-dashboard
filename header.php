@@ -5,7 +5,14 @@
                 <div class="col-12">
                     <div class="header-main">
                         <div class="header-search-area">
-                            <input class="search-area" placeholder="Search" type="text" name="" id="">
+                            <div class="menu-btn-area">
+                                <button class="menu-btn" type="button">
+                                    <i class="fa-solid fa-bars"></i>
+                                </button>
+                            </div>
+                            <div class="search-input-area">
+                                <input class="search-area" placeholder="Search" type="text" name="" id="">
+                            </div>
                         </div>
                         <div class="header-right-side">
                             <div class="header-notify-area">

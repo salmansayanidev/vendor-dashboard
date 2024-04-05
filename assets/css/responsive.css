@@ -1,0 +1,89 @@
+@media (max-width: 1600px) {
+    .dash-result-area {
+        justify-content: space-between;
+        gap: 12px;
+    }
+}
+@media (max-width : 1440px) {
+    
+    html {
+        font-size: 55%;
+    }
+
+    .dash-result-inner {
+        padding: 15px 10px;
+    }
+    .dash-result-icon-area {
+        height: 50px;
+        width: 50px;
+    }
+    .dash-result-icon-area i {
+        font-size: 2.2rem;
+    }
+    #header {
+        padding: 25px 15px;
+    }
+    section.welcome-section {
+        padding: 30px 15px;
+    }
+    .dash-left-sidebar {
+        max-width: 280px;
+        padding: 25px 15px;
+    }
+    #room-booking-charge_wrapper .row.dt-row {
+        overflow: auto;
+    }
+    #room-booking-charge_wrapper .row.dt-row .col-sm-12 {
+        min-width: 1190px;
+    }
+}
+
+@media (max-width:1280px) {
+    .dash-result-inner {
+        padding: 10px 10px;
+    }
+    .dash-result-area {
+        gap: 0px;
+    }
+    .dash-left-sidebar {
+        max-width: 260px;
+    }
+}
+
+@media (max-width:1024px) {
+    .dash-left-sidebar {
+        position: absolute;
+        z-index: 999;
+        left: -100%;
+        top: 0;
+        transition: 0.5s;
+        max-width: 300px;
+        width: 100%;
+    }
+    .dash-left-sidebar.active {
+        left: 0;
+    }
+    .search-area {
+        height: 40px;
+        max-width: 360px;
+    }
+    .menu-btn {
+        display: flex;
+    }
+    .header-search-area {
+        max-width: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu-btn-area {
+        width: 14%;
+    }
+    .search-input-area {
+        width: 85%;
+    }
+    button.menu-cls-btn {
+        display: flex;
+    }
+}

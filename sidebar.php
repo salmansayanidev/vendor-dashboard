@@ -20,6 +20,9 @@
 
     <div class="dashboard-main-area">
         <div class="dash-left-sidebar">
+            <button class="menu-cls-btn" type="button">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
             <div class="dash-logo-area">
                 <img class="img-fluid" src="./assets/images/mitul-bhai-logo.png" alt="">
             </div>
@@ -156,3 +159,4 @@
                 </ul>
             </nav>
         </div>
+
