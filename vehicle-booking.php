@@ -14,7 +14,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="section-main-title theme-color mb-0">My Bookings</h1>
+                    <h1 class="section-main-title theme-color mb-0">Vehicle Bookings</h1>
                 </div>
                 <div class="col-12">
                     <div class="booking-charge-tabel-area position-relative">
@@ -375,6 +375,6 @@
     include "footer.php";
 ?>
 
-<script src="./assets/js/booking.js"></script>
+<script src="./assets/js/vehicle-booking.js"></script>
 
 

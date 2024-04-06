@@ -48,6 +48,11 @@ input[type="number"] {
   font-family: "Roboto-Thin";
   src: url(../fonts/Roboto/Roboto-Thin.ttf);
 }
+@font-face {
+  font-family: "signature.ttf";
+  font-style: normal;
+  src: local(""), url("../fonts/signature-font/signature.ttf");
+}
 
 html {
   overflow-x: hidden;
@@ -1761,7 +1766,7 @@ input {
 }
 .flex-area {
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   gap: 0 10px;
@@ -1972,7 +1977,8 @@ textarea.form-input {
 }
 label.place-label , 
 label.features-label,
-label.add-discount-label {
+label.add-discount-label, 
+label.vehicle-type-label {
   width: 100%;
   padding: 15px 14px;
   border: 1px solid #c1c1c1;
@@ -2242,8 +2248,8 @@ button.cop-similis {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
-  background-color: #13063d;
+  border-radius: 5px;
+  background-color: var(--theme-color);
   padding: 5px 10px;
 }
 span.percnt-no {
@@ -2260,4 +2266,295 @@ span.percnt-no {
   justify-content: space-between !important;
   flex-direction: unset !important;
 }
+h2.discount-title {
+  font-size: 2.8rem;
+  text-align: start;
+  color: var(--sb-title-color);
+  font-family: var(--Roboto-Medium);
+}
+.discount-para {
+  font-size: 1.6rem;
+  font-family: var(--Roboto-Regular);
+  color: black;
+  margin-top: 5px;
+}
+.fa-percent {
+  font-size: 2.5rem;
+  color: var(--sb-title-color);
+}
+.add-discount-input:checked  + .add-discount-label {
+  background-color: var(--theme-color);
+}
+.add-discount-input:checked  + .add-discount-label .fa-percent {
+  color: white;
+}
+.add-discount-input:checked  + .add-discount-label .discount-para {
+  color: white;
+}
+.add-discount-input:checked  + .add-discount-label .discount-title  {
+  color: white;
+}
+.add-discount-input:checked  + .add-discount-label .percnt-no {
+  color: var(--sb-title-color);
+}
+.add-discount-input:checked  + .add-discount-label .percnt-no-area {
+  background-color: white;
+}
+
+/* upload images css start */
+/* .blue--btn {
+  background: #0079d2;
+  border: 1px solid #0079d2;
+  color: #fff;
+  border-radius: 4px;
+  padding: 4px 12px;
+  cursor: pointer;
+} */
+
+.form__field {
+  margin: 24px 0;
+  position: relative;
+}
+
+.form__title {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.form__load-img li {
+  margin-bottom: 4px;
+}
+
+.form__load-img ul {
+  list-style: none;
+}
+
+.load__img-wrap {
+  background-color:white;
+  margin-top: 8px;
+  width: 100%;
+  position: relative;
+}
+
+.load__img-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 28px;
+  border: 1px dashed #c5c5c5;
+  border-radius: 8px;
+}
+
+.content__wrapper {
+  min-width: 310px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+
+.upload__TipIcon {
+  position: relative;
+}
+
+.upload__Tooltip {
+  display: none;
+  position: absolute;
+  top: 27px;
+  right: -152px;
+  padding: 16px;
+  color: #767676;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+  white-space: normal;
+  z-index: 999999;
+  background: #fff;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 12%);
+  border-radius: 8px;
+  width: 275px;
+}
+
+.upload__TipIcon:hover .upload__Tooltip {
+  display: block;
+}
+
+.margin--top-16 {
+  margin-top: 16px;
+}
+
+.error__msg {
+  visibility: visible;
+  color: #ed0101 !important;
+  font-size: 13px;
+  font-weight: 550;
+  margin: 15px 0;
+  line-height: 15px;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+.upload__thumbnails {
+  margin: 24px 0 32px;
+}
+
+.imgs__wrapper, .item__imgs {
+  display: flex;
+  overflow: auto;
+}
+
+.item__wrapper:nth-of-type(1) {
+  margin-left: 0;
+}
+
+.item__wrapper {
+  position: relative;
+  margin-left: 1.5rem;
+}
+
+.remove__img {
+  position: absolute;
+  z-index: 999;
+  right: 2px;
+  top: 2px;
+}
+
+.remove__icon {
+  background: #fff;
+  box-shadow: 0 1px 5px rgb(0 0 0 / 30%);
+  border-radius: 50% 50%;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content__wrapper.disable {
+color: #BABABA;
+}
+
+.content__wrapper.disable path {
+fill:  #BABABA;
+}
+
+.content__wrapper.disable button {
+background: #BABABA;
+border: 1px solid #BABABA;
+cursor: inherit;
+}
+.drag-para {
+  font-size: 1.6rem;
+  font-family: var(--Roboto-Medium);
+  color: black;
+}
+.multiple-preview-images {
+  width: 200px;
+  height: 170px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 4px #0000005e;
+  object-fit: cover;
+  object-position: center;
+}
+.release-liability-popup {
+  position: fixed;
+  top: 50%;
+  z-index: 99999;
+  background: white;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 1100px;
+  padding: 20px 50px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 20px #00000059;
+  display: none;
+  max-height: 900px;
+  height: auto;
+  overflow-y: auto;
+}
+.release-liability-popup.active {
+  display: block;
+}
+p.release-para {
+  font-size: 1.6rem;
+  line-height: 1.3;
+  color: black;
+  font-family: var(--Roboto-Regular);
+}
+
+#sign {
+  height: 50px;
+  width: 80%;
+  font-family: "signature.ttf" !important;
+  font-size: 25pt;
+}
+/* upload images css start */
+
+
 /* add hotel screeen end */
+
+
+/* add vehicle screen start */
+
+.flex-area .form-field-area {
+  width: 49%;
+}
+.vehicle-type-input {
+  display: none;
+}
+.veh-type-img {
+  width: 70px;
+}
+.vehicle-type {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px 15px;
+}
+.vehicle-type-area {
+  width: 24%;
+}
+.veh-spec-title {
+    font-size: 2rem;
+    font-family: var(--Roboto-Black);
+    color: var(--sb-title-color);
+    margin: 30px 0 20px;
+    text-align: center;
+}
+.vehicle-type-input:checked + .vehicle-type-label {
+  border: 1px solid var(--theme-color);
+  box-shadow: 0 0 11px 3px #2b32824d;
+}
+.vehicle-features-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px 0;
+}
+.vehicle-feature-area {
+  width: 49.5%;
+}
+.vehicle-feature-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 1px solid #00000066;
+  cursor: pointer;
+}
+.vehicle-feature-input {
+  accent-color: var(--theme-color);
+  height: 15px;
+  width: 15px;
+}
+/* add vehicle screen end */
+

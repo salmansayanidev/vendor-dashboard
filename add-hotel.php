@@ -1,8 +1,8 @@
 <?php
-    include "sidebar.php";
+include "sidebar.php";
 ?>
 <?php
-    include "header.php";
+include "header.php";
 ?>
 
 
@@ -84,7 +84,7 @@
                                                                 <span class="place-name">Bed & breakfast</span>
                                                             </label>
                                                         </div>
-                                                        
+
                                                         <div class="place-radio-area">
                                                             <input class="place-input" type="radio" name="place" id="Boat">
                                                             <label class="place-label" for="Boat">
@@ -300,7 +300,7 @@
                                                                 <span class="place-name">Yurt</span>
                                                             </label>
                                                         </div>
-                                                        
+
                                                     </div>
                                                 </div>
                                                 <div class="form-btn-area">
@@ -325,7 +325,6 @@
                                                 <div class="form-btn-area">
                                                     <button type="button" class="theme-btn btn btn-primary prev-step">Previous</button>
                                                     <button type="button" class="theme-btn btn btn-primary next-step">Next</button>
-                                                    <!-- <button type="submit" class="btn btn-success">Submit</button> -->
                                                 </div>
                                             </div>
                                         </div>
@@ -379,7 +378,6 @@
                                                 <div class="form-btn-area">
                                                     <button type="button" class="theme-btn btn btn-primary prev-step">Previous</button>
                                                     <button type="button" class="theme-btn btn btn-primary next-step">Next</button>
-                                                    <!-- <button type="submit" class="btn btn-success">Submit</button> -->
                                                 </div>
                                             </div>
                                         </div>
@@ -416,13 +414,12 @@
                                                         <div class="form-field-area">
                                                             <input class="form-input" type="text" placeholder="zipcode" name="" id="">
                                                         </div>
-                                                   </div>
+                                                    </div>
                                                 </div>
 
                                                 <div class="form-btn-area">
                                                     <button type="button" class="theme-btn btn btn-primary prev-step">Previous</button>
                                                     <button type="button" class="theme-btn btn btn-primary next-step">Next</button>
-                                                    <!-- <button type="submit" class="btn btn-success">Submit</button> -->
                                                 </div>
                                             </div>
                                         </div>
@@ -431,7 +428,7 @@
                                     <div class="row">
                                         <div class="col-12">
                                             <div class="step step-5">
-                                                <!-- Step 4 form fields here -->
+                                                <!-- Step 5 form fields here -->
                                                 <h2 class="step-form-title">How many people can stay here?</h2>
                                                 <div class="row justify-content-center">
                                                     <div class="col-12 col-lg-10">
@@ -443,9 +440,9 @@
                                                                 </div>
                                                                 <div class="counter-area">
                                                                     <button type="button" class="decrement count-btn">
-                                                                        <i class="fa-solid fa-minus"></i>    
+                                                                        <i class="fa-solid fa-minus"></i>
                                                                     </button>
-                                                                    <input class="count count-input" placeholder="0"  value="0" name="" />
+                                                                    <input class="count count-input" placeholder="0" value="0" name="" />
                                                                     <button type="button" class="increment count-btn">
                                                                         <i class="fa-solid fa-plus"></i>
                                                                     </button>
@@ -457,9 +454,9 @@
                                                                 </div>
                                                                 <div class="counter-area">
                                                                     <button type="button" class="decrement count-btn">
-                                                                        <i class="fa-solid fa-minus"></i>    
+                                                                        <i class="fa-solid fa-minus"></i>
                                                                     </button>
-                                                                    <input class="count count-input" placeholder="0"  value="0" name="" />
+                                                                    <input class="count count-input" placeholder="0" value="0" name="" />
                                                                     <button type="button" class="increment count-btn">
                                                                         <i class="fa-solid fa-plus"></i>
                                                                     </button>
@@ -471,9 +468,9 @@
                                                                 </div>
                                                                 <div class="counter-area">
                                                                     <button type="button" class="decrement count-btn">
-                                                                        <i class="fa-solid fa-minus"></i>    
+                                                                        <i class="fa-solid fa-minus"></i>
                                                                     </button>
-                                                                    <input class="count count-input" placeholder="0"  value="0" name="" />
+                                                                    <input class="count count-input" placeholder="0" value="0" name="" />
                                                                     <button type="button" class="increment count-btn">
                                                                         <i class="fa-solid fa-plus"></i>
                                                                     </button>
@@ -485,9 +482,9 @@
                                                                 </div>
                                                                 <div class="counter-area">
                                                                     <button type="button" class="decrement count-btn">
-                                                                        <i class="fa-solid fa-minus"></i>    
+                                                                        <i class="fa-solid fa-minus"></i>
                                                                     </button>
-                                                                    <input class="count count-input" placeholder="0"  value="0" name="" />
+                                                                    <input class="count count-input" placeholder="0" value="0" name="" />
                                                                     <button type="button" class="increment count-btn">
                                                                         <i class="fa-solid fa-plus"></i>
                                                                     </button>
@@ -500,7 +497,6 @@
                                                 <div class="form-btn-area">
                                                     <button type="button" class="theme-btn btn btn-primary prev-step">Previous</button>
                                                     <button type="button" class="theme-btn btn btn-primary next-step">Next</button>
-                                                    <!-- <button type="submit" class="btn btn-success">Submit</button> -->
                                                 </div>
                                             </div>
                                         </div>
@@ -509,7 +505,7 @@
                                     <div class="row">
                                         <div class="col-12">
                                             <div class="step step-6">
-                                                <!-- Step 4 form fields here -->
+                                                <!-- Step 6 form fields here -->
                                                 <h2 class="step-form-title">SPACIFICATION</h2>
                                                 <div class="specicification-area">
                                                     <h2 class="form-sb-title text-start">Features</h2>
@@ -572,7 +568,7 @@
                                                                 <span class="place-name">Dedicated Workspace</span>
                                                             </label>
                                                         </div>
-                                                        
+
                                                     </div>
 
                                                     <h2 class="form-sb-title text-start">Special Features</h2>
@@ -670,7 +666,7 @@
                                                                 <span class="place-name">Outdoor shower</span>
                                                             </label>
                                                         </div>
-                                                        
+
                                                     </div>
 
                                                     <h2 class="form-sb-title text-start">Do you have any of these safety items?</h2>
@@ -705,14 +701,13 @@
                                                                 <span class="place-name">Carbon monoxide alarm</span>
                                                             </label>
                                                         </div>
-                                                        
+
                                                     </div>
                                                 </div>
-                                                
+
                                                 <div class="form-btn-area">
                                                     <button type="button" class="theme-btn btn btn-primary prev-step">Previous</button>
                                                     <button type="button" class="theme-btn btn btn-primary next-step">Next</button>
-                                                    <!-- <button type="submit" class="btn btn-success">Submit</button> -->
                                                 </div>
                                             </div>
                                         </div>
@@ -721,7 +716,7 @@
                                     <div class="row">
                                         <div class="col-12">
                                             <div class="step step-7">
-                                                <!-- Step 4 form fields here -->
+                                                <!-- Step 7 form fields here -->
                                                 <h2 class="step-form-title">PRICE</h2>
 
                                                 <div class="row justify-content-center">
@@ -729,7 +724,7 @@
                                                         <div class="pricing-area">
                                                             <div class="price-area">
                                                                 <div class="position-relative">
-                                                                    <input class="price-input" type="number" name="guess_price" value="{{ old('guess_price') }}" id="guess-price" placeholder="$1000">
+                                                                    <input class="price-input" type="number" name="" value="" id="guess-price" placeholder="$1000">
                                                                 </div>
                                                             </div>
                                                             <div class="guest-price-tax-area">
@@ -774,11 +769,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                
+
                                                 <div class="form-btn-area">
                                                     <button type="button" class="theme-btn btn btn-primary prev-step">Previous</button>
                                                     <button type="button" class="theme-btn btn btn-primary next-step">Next</button>
-                                                    <!-- <button type="submit" class="btn btn-success">Submit</button> -->
                                                 </div>
                                             </div>
                                         </div>
@@ -787,14 +781,15 @@
                                     <div class="row">
                                         <div class="col-12">
                                             <div class="step step-8">
-                                                <!-- Step 4 form fields here -->
+                                                <!-- Step 8 form fields here -->
                                                 <h2 class="step-form-title">Add Discounts</h2>
-                                                        
+
                                                 <div class="row justify-content-center">
                                                     <div class="col-12 col-md-9 col-lg-8">
+
                                                         <div class="add-discount">
+                                                            <input class="add-discount-input" type="checkbox" name="discount" id="For-24-Hours">
                                                             <label class="add-discount-label" for="For-24-Hours">
-                                                                <input class="add-discount-input" type="checkbox" name="discount" id="For-24-Hours">
                                                                 <div class="para-input dscount">
                                                                     <div class="percnt-no-area">
                                                                         <span class="percnt-no">10 %</span>
@@ -811,15 +806,15 @@
                                                         </div>
 
                                                         <div class="add-discount">
-                                                            <label class="add-discount-label" for="For-24-Hours">
-                                                                <input class="add-discount-input" type="checkbox" name="discount" id="For-24-Hours">
+                                                            <input class="add-discount-input" type="checkbox" name="discount" id="For-7-Days">
+                                                            <label class="add-discount-label" for="For-7-Days">
                                                                 <div class="para-input dscount">
                                                                     <div class="percnt-no-area">
-                                                                        <span class="percnt-no">10 %</span>
+                                                                        <span class="percnt-no">15 %</span>
                                                                     </div>
                                                                     <div class="">
-                                                                        <h2 class="discount-title">For 24 Hours</h2>
-                                                                        <p class="discount-para">Guest have the whole place to themselves for 24 Hours </p>
+                                                                        <h2 class="discount-title">For 7 Days</h2>
+                                                                        <p class="discount-para">Guest have the whole place to themselves for 7 days </p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="">
@@ -829,15 +824,15 @@
                                                         </div>
 
                                                         <div class="add-discount">
-                                                            <label class="add-discount-label" for="For-24-Hours">
-                                                                <input class="add-discount-input" type="checkbox" name="discount" id="For-24-Hours">
+                                                            <input class="add-discount-input" type="checkbox" name="discount" id="For-30-Days">
+                                                            <label class="add-discount-label" for="For-30-Days">
                                                                 <div class="para-input dscount">
                                                                     <div class="percnt-no-area">
-                                                                        <span class="percnt-no">10 %</span>
+                                                                        <span class="percnt-no">20 %</span>
                                                                     </div>
                                                                     <div class="">
-                                                                        <h2 class="discount-title">For 24 Hours</h2>
-                                                                        <p class="discount-para">Guest have the whole place to themselves for 24 Hours </p>
+                                                                        <h2 class="discount-title">For 30 Days</h2>
+                                                                        <p class="discount-para">Guest have the whole place to themselves for 30 days</p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="">
@@ -847,14 +842,124 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                
-                                                
+
+
                                                 <div class="form-btn-area">
                                                     <button type="button" class="theme-btn btn btn-primary prev-step">Previous</button>
                                                     <button type="button" class="theme-btn btn btn-primary next-step">Next</button>
-                                                    <!-- <button type="submit" class="btn btn-success">Submit</button> -->
                                                 </div>
                                             </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="step step-9">
+                                                <!-- Step 9 form fields here -->
+                                                <h2 class="step-form-title">Upload Images</h2>
+
+                                                <div data-image-uploader data-image-uploader-file-type-regex="(\.jpg|\.jpeg|\.png)$" data-image-uploader-max-file-size="8" class="form__field form__load-img">
+                                                    <div class="load__img-wrap">
+                                                        <div class="load__img-content" data-image-uploader-drop-area>
+                                                            <div class="content__wrapper" data-image-uploader-content>
+                                                                <button type="button" class="blue--btn theme-btn">Upload File</button>
+                                                                <span class="drag-para">/</span>
+                                                                <svg viewBox="0 0 17 17" width="25" height="25" fill="#2b3282">
+                                                                    <path d="M14.917 7.611H11.25v5.333h-5.5V7.611H2.083L8.5.5l6.417 7.111Zm-13.75 7.111h14.666V16.5H1.167v-1.778Z" fill="#2b3282" />
+                                                                </svg>
+                                                                <p class="drag-para">Drag your files here</p>
+                                                                <div class="upload__TipIcon">
+                                                                    <span>
+                                                                        <svg viewBox="0 0 17 17" width="25" height="25" fill="#2b3282" xmlns="http://www.w3.org/2000/svg">
+                                                                            <g clip-path="url(#a)">
+                                                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.5 1.955a6.545 6.545 0 1 0 0 13.09 6.545 6.545 0 0 0 0-13.09ZM.5 8.5a8 8 0 1 1 16 0 8 8 0 0 1-16 0Zm8-3.636c.402 0 .727.325.727.727V8.5a.727.727 0 0 1-1.454 0V5.59c0-.4.325-.726.727-.726Zm0 5.818a.727.727 0 0 0 0 1.454h.007a.727.727 0 0 0 0-1.454H8.5Z" fill="#2b3282" />
+                                                                            </g>
+                                                                            <defs>
+                                                                                <clipPath id="a">
+                                                                                    <path fill="#fff" transform="translate(.5 .5)" d="M0 0h16v16H0z" />
+                                                                                </clipPath>
+                                                                            </defs>
+                                                                        </svg>
+                                                                    </span>
+                                                                    <!-- <div class="upload__Tooltip">
+                                                                        <ul>
+                                                                            <li>- Images must be in JPG, JPEG and PNG format.</li>
+                                                                            <li>- File size must be 10 MB or less.</li>
+                                                                            <li>- Maximum 3 images.</li>
+                                                                            <li>- Image must be at least 100 pixels tall.</li>
+                                                                            <li>- Image must be at least 100 pixels wide.</li>
+                                                                        </ul>
+                                                                    </div> -->
+                                                                </div>
+                                                            </div>
+                                                            <input type="file" enctype="multipart/form-data" accept=".png, .jpg, .jpeg" multiple style="display: none;">
+                                                        </div>
+                                                    </div>
+                                                    <!-- <ul class="validation-summary-errors error__msg margin--top-16 hidden" id="errorMessage" data-image-uploader-errors>
+                                                        <li>* Images must be in JPG, JPEG and PNG format.</li>
+                                                        <li>* File size must be 10 MB or less.</li>
+                                                        <li>* Maximum 3 images.</li>
+                                                        <li>* Image must be at least 100 pixels tall.</li>
+                                                        <li>* Image must be at least 100 pixels wide.</li>
+                                                    </ul> -->
+                                                    <div class="upload__thumbnails hidden" data-thumbnails-container>
+                                                        <div>
+                                                            <div>
+                                                                <!-- <span>Uploaded files</span> -->
+                                                                <div class="imgs__wrapper">
+                                                                    <div class="item__imgs" data-image-preview-container>
+                                                                        <template data-image-preview>
+                                                                            <div class="item__wrapper" data-image-preview-element>
+                                                                                <div class="remove__img">
+                                                                                    <button class="remove__icon" data-removal-button>
+                                                                                        <svg viewBox="0 0 12 12" width="10" height="10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                            <path d="M12 1.2 10.8 0 6 4.8 1.2 0 0 1.2 4.8 6 0 10.8 1.2 12 6 7.2l4.8 4.8 1.2-1.2L7.2 6 12 1.2Z" fill="#4B4B4B" />
+                                                                                        </svg>
+                                                                                    </button>
+                                                                                </div>
+                                                                                <div class="review__img">
+                                                                                    <picture>
+                                                                                        <img class="multiple-preview-images" />
+                                                                                    </picture>
+                                                                                </div>
+                                                                            </div>
+                                                                        </template>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-btn-area">
+                                                    <button type="button" class="theme-btn btn btn-primary prev-step">Previous</button>
+                                                    <button type="button" class="theme-btn btn btn-primary release-pop-btn">Next</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="release-liability-popup">
+                                        <h2 class="step-form-title">Release of Liability Agreement</h2>
+                                        <div class="popup-top">
+                                            <p class="release-para">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                                        </div>
+                                        <h3 class="form-sb-title text-start">Release of Liability</h3>
+                                        <div class="popup-bottom">
+                                            <div class="form-field-area">
+                                                <input class="form-input" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="Date" name="" id="">
+                                            </div>
+                                            <div class="form-field-area">
+                                                <input class="form-input" type="text" placeholder="Name of Renter" name="" id="">
+                                            </div>
+                                            <div class="form-field-area">
+                                                <input class="form-input" type="text" placeholder="Address of Renter" name="" id="">
+                                            </div>
+                                            <div class="form-field-area">
+                                                <input class="form-input" type="text" placeholder="vendor signature" name="" id="e_signature">
+                                            </div>
+                                            <p class="release-para" id="sign"></p>
+                                        </div>
+                                        <div class="form-btn-area">
+                                            <button type="submit" class="theme-btn btn btn-success">Submit</button>
                                         </div>
                                     </div>
                                 </form>
@@ -873,39 +978,8 @@
 
 
 <?php
-    include "footer.php";
+include "footer.php";
 ?>
 
 
 <script src="./assets/js/add-hotel.js"></script>
-
-
-<script>
-    $('.counter-area .increment').click(function() {
-        var countElement = $(this).siblings('.count-input');
-        var count = Number(countElement.val());
-        count++;
-        countElement.val(count);
-    });
-
-    $('.counter-area .decrement').click(function() {
-        var countElement = $(this).siblings('.count-input');
-        var count = Number(countElement.val());
-        if (count > 0) {
-            count--;
-            countElement.val(count);
-        }
-    });
-
-
-
-
-    const priceArea = document.querySelector('.pricing-area-inner')
-    const guestPriceArea = document.querySelector('.guest-price-tax')
-
-    guestPriceArea?.addEventListener('click', () => {
-        priceArea.classList.toggle('active')
-    })
-
-
-</script>
