@@ -37,16 +37,22 @@
                     </li>
 
                     <li class="dash-nav-link"> 
-                        <a class="nav-link bg position-relative" href="booking.php">
+                        <a class="nav-link bg position-relative" href="javaacript:void()">
                             <i style="color: #2B3282;" class="bi bi-cart3"></i>
                             My Booking
                             <i style="color: #2B3282;" class="fa-solid fa-angle-down sider-angle-down"></i>
                         </a>
                         <ul class="dash-sb-nav-area">
-                            <li class="">
-                                <a class="nav-link" href="add-booking.php">
+                            <li class="mb-2">
+                                <a class="nav-link" href="hotel-booking.php">
                                     <i style="color: #8F00FF;" class="fa-solid fa-hotel"></i>
-                                    Add Bookings
+                                    Hotel Bookings
+                                </a>
+                            </li>
+                            <li class="">
+                                <a class="nav-link" href="vehicle-booking.php">
+                                    <i style="color: #8F00FF;" class="bi bi-car-front"></i>
+                                    Vehicle Bookings
                                 </a>
                             </li>
                         </ul>
@@ -76,7 +82,7 @@
                         </a>
                         <ul class="dash-sb-nav-area">
                             <li class="">
-                                <a class="nav-link" href="javascript:void()">
+                                <a class="nav-link" href="add-vehicle.php">
                                     <i style="color: #FFC107;" class="bi bi-car-front"></i>
                                     Add Vehicles
                                 </a>
