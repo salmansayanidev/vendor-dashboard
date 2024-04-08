@@ -10,14 +10,14 @@
 
 
 <main>
-    <section class="welcome-section ">
+    <section class="welcome-section">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
                     <h1 class="section-main-title theme-color mb-0">Hotels Bookings</h1>
                 </div>
                 <div class="col-12">
-                    <div class="booking-charge-tabel-area position-relative">
+                    <div class="booking-charge-tabel-area">
                         <div class="section-sb-title-area">
                             <div class="">
                                 <h2 class="section-sb-title">Room Booking Charge</h2>

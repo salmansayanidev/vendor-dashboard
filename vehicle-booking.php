@@ -17,7 +17,7 @@
                     <h1 class="section-main-title theme-color mb-0">Vehicle Bookings</h1>
                 </div>
                 <div class="col-12">
-                    <div class="booking-charge-tabel-area position-relative">
+                    <div class="booking-charge-tabel-area">
                         <div class="section-sb-title-area">
                             <div class="">
                                 <h2 class="section-sb-title">Room Booking Charge</h2>

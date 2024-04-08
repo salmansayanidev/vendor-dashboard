@@ -9,3 +9,16 @@ menuOpenBtn.addEventListener("click", () => {
 menuClsBtn.addEventListener("click", () => {
   sideBar.classList.remove("active");
 });
+
+
+const searchPopup = document.querySelector('.search-input-area')
+const seaPopOpen = document.querySelector('.res-search-btn')
+const seaPopCls = document.querySelector('.search-pop-cls')
+
+seaPopOpen?.addEventListener('click' , () => {
+  searchPopup.classList.add('active')
+})
+
+seaPopCls?.addEventListener('click' , () => {
+  searchPopup.classList.remove('active')
+})
