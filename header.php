@@ -9,9 +9,15 @@
                                 <button class="menu-btn" type="button">
                                     <i class="fa-solid fa-bars"></i>
                                 </button>
+                                <button class="res-search-btn" type="button">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
                             </div>
                             <div class="search-input-area">
-                                <input class="search-area" placeholder="Search" type="text" name="" id="">
+                                <button class="search-pop-cls" type="button">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </button>
+                                <input class="search-area mt-0" placeholder="Search" type="text" name="" id="">
                             </div>
                         </div>
                         <div class="header-right-side">

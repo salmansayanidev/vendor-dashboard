@@ -1,89 +1,290 @@
-@media (max-width: 1600px) {
-    .dash-result-area {
-        justify-content: space-between;
-        gap: 12px;
-    }
+@media (max-width: 1620px) {
+  .dash-result-area {
+    justify-content: space-between;
+    gap: 12px;
+  }
+  table.theme-tabel th {
+    font-size: 1.4rem;
+  }
+  #my_booking_wrapper .row.dt-row {
+    overflow: auto;
+} 
+#my_booking_wrapper .row.dt-row .col-sm-12 {
+    min-width: 1350px;
 }
-@media (max-width : 1440px) {
+}
+
+@media (max-width: 1450px) {
+    .release-liability-popup {
+        max-height: 450px;
+        padding: 20px 20px;
+
+    }
+  html {
+    font-size: 55%;
+  }
+
+  .dash-result-inner {
+    padding: 15px 10px;
+  }
+  .dash-result-icon-area {
+    height: 50px;
+    width: 50px;
+  }
+  .dash-result-icon-area i {
+    font-size: 2.2rem;
+  }
+  #header {
+    padding: 25px 15px;
+  }
+  section.welcome-section {
+    padding: 30px 15px;
+  }
+  .dash-left-sidebar {
+    max-width: 280px;
+    padding: 25px 15px;
+  }
+  #room-booking-charge_wrapper .row.dt-row {
+    overflow: auto;
+  }
+  #room-booking-charge_wrapper .row.dt-row .col-sm-12 {
+    min-width: 1190px;
+  }
+}
+
+@media (max-width: 1290px) {
+    #multi-step-form {
+        margin-top: 35px;
+        padding: 20px 20px;
+        border-radius: 10px;
+    }
+    .booking-charge-tabel-area, .profile-main-area, .reviews-area {
+        padding: 25px 20px 30px;
+    }
+    .theme-btn {
+        padding: 10px 5px;
+        width: 130px;
+    }
+    .form-map {
+        height: 350px !important;
+    }
+  .dash-result-inner {
+    padding: 10px 10px;
+  }
+  .dash-result-area {
+    gap: 0px;
+  }
+  .dash-left-sidebar {
+    max-width: 260px;
+  }
+  #rental_module_wrapper .row.dt-row {
+    overflow: auto;
+  }
+  #rental_module_wrapper .row.dt-row .col-sm-12 {
+    min-width: 990px;
+  }
+}
+
+
+@media (max-width: 1034px) {
     
-    html {
-        font-size: 55%;
-    }
-
-    .dash-result-inner {
-        padding: 15px 10px;
-    }
-    .dash-result-icon-area {
-        height: 50px;
-        width: 50px;
-    }
-    .dash-result-icon-area i {
-        font-size: 2.2rem;
-    }
-    #header {
-        padding: 25px 15px;
-    }
-    section.welcome-section {
-        padding: 30px 15px;
-    }
-    .dash-left-sidebar {
-        max-width: 280px;
-        padding: 25px 15px;
-    }
-    #room-booking-charge_wrapper .row.dt-row {
-        overflow: auto;
-    }
-    #room-booking-charge_wrapper .row.dt-row .col-sm-12 {
-        min-width: 1190px;
-    }
+  .dash-left-sidebar {
+    position: absolute;
+    z-index: 999;
+    left: -100%;
+    top: 0;
+    transition: 0.5s;
+    max-width: 300px;
+    width: 100%;
+  }
+  .dash-left-sidebar.active {
+    left: 0;
+  }
+  .search-area {
+    height: 40px;
+    max-width: 360px;
+  }
+  .menu-btn {
+    display: flex;
+  }
+  .header-search-area {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu-btn-area {
+    width: 14%;
+  }
+  .search-input-area {
+    width: 85%;
+  }
+  button.menu-cls-btn {
+    display: flex;
+  }
 }
 
-@media (max-width:1280px) {
-    .dash-result-inner {
-        padding: 10px 10px;
-    }
-    .dash-result-area {
-        gap: 0px;
-    }
-    .dash-left-sidebar {
-        max-width: 260px;
-    }
-}
-
-@media (max-width:1024px) {
-    .dash-left-sidebar {
-        position: absolute;
-        z-index: 999;
-        left: -100%;
-        top: 0;
-        transition: 0.5s;
-        max-width: 300px;
+@media (max-width: 991px) {
+    .release-liability-popup {
+        max-width: 650px;
         width: 100%;
     }
-    .dash-left-sidebar.active {
-        left: 0;
+    .features-main {
+        justify-content: start;
+        gap: 15px 12px;
+    }
+    .features-check-area {
+        width: 32%;
+    }
+    .place-radio-main {
+        justify-content: start;
+        gap: 10px 8px;
+    }
+    .place-radio-area {
+        width: 24%;
+    }
+    .theme-btn {
+        padding: 8px 5px;
+        width: 110px;
+    }
+  .dash-result-inner {
+    width: 49%;
+  }
+  .dash-result-area {
+    gap: 10px 0px;
+  }
+  .pie-chart {
+    width: 100%;
+  }
+  .area-chart {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+    .dataTables_filter {
+        justify-content: start;
+        margin-top: 10px;
+      }
+      .header-search-area {
+        max-width: 340px;
+    }
+}
+
+@media (max-width: 585px) {
+    .dataTables_paginate.paging_simple_numbers {
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .dataTables_info {
+        text-align: center;
+    }
+  section.welcome-section {
+    padding: 20px 10px;
+  }
+  #header {
+    padding: 25px 5px;
+  }
+  
+  .header-right-side {
+    gap: 5px;
+  }
+  .header-por-img {
+    height: 30px;
+    width: 30px;
+}
+.header-profile-btn {
+    font-size: 1.2rem;
+    gap: 5px;
+}
+.notify-count {
+    font-size: 10px;
+}
+.notification i {
+    font-size: 14px;
+}
+.notification {
+    height: 30px;
+    width: 30px;
+}
+.search-input-area {
+    width: 80%;
+}
+.menu-btn-area {
+    width: 10%;
+}
+.header-search-area {
+    justify-content: start;
+    gap: 10px;
+}
+.search-input-area {
+    width: 70%;
+}
+html {
+    font-size: 50%;
+}
+.chart-area {
+    padding: 15px 15px;
+    margin-top: 25px;
+}
+}
+
+@media (max-width:490px) {
+    .search-input-area {
+        position: absolute;
+        top: 50%;
+        transition: 0.5s;
+        left: -100%;
+        transform: translate(-50%, -50%);
+        z-index: 99;
+        background-color: #0d233e;
+        padding: 30px 20px;
+        border-radius: 10px;
+        width: 90%;
+    }
+    .search-input-area.active {
+        left: 50%;
     }
     .search-area {
-        height: 40px;
-        max-width: 360px;
+        max-width: 100%;
     }
-    .menu-btn {
+    .res-search-btn {
         display: flex;
-    }
-    .header-search-area {
-        max-width: 400px;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
     .menu-btn-area {
-        width: 14%;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 10px;
     }
-    .search-input-area {
-        width: 85%;
+    .menu-btn, .res-search-btn {
+        height: 30px;
+        width: 30px;
+        font-size: 2rem;
     }
-    button.menu-cls-btn {
+    button.search-pop-cls {
         display: flex;
     }
+    .dash-result-icon-area {
+        border-radius: 10px;
+        height: 45px;
+        width: 45px;
+    }
+    html {
+        font-size: 45%;
+    }
+    .dash-result-inner {
+        width: 100%;
+    }
+    .footer-area {
+        flex-direction: column;
+        gap: 10px 0;
+    }
+    .footer-social-icons {
+        height: 25px;
+        width: 25px;
+    }
 }
+

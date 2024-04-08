@@ -173,7 +173,8 @@ ul.dash-sb-nav-area {
   align-items: center;
   justify-content: space-between;
 }
-.menu-btn {
+.menu-btn , 
+.res-search-btn {
   display: none;
   height: 40px;
   width: 40px;
@@ -184,6 +185,19 @@ ul.dash-sb-nav-area {
   color: var(--sb-title-color);
   font-size: 2.5rem;
   border: none; 
+}
+button.search-pop-cls {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: none;
+  font-size: 1.6rem;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 5px;
+  top: 5px;
 }
 button.menu-cls-btn {
   position: absolute;
@@ -204,6 +218,7 @@ button.menu-cls-btn {
   width: 100%;
   height: 100vh;
   overflow: auto;
+  position: relative;
 }
 .header-search-area {
   max-width: 320px;
@@ -308,7 +323,6 @@ button.menu-cls-btn {
 
 section.welcome-section {
   padding: 35px 25px;
-  position: relative;
   border-top: 1px solid #000000a3;
   min-height: calc(100vh - 170px);
 }
@@ -1618,6 +1632,9 @@ input {
   border-radius: 5px;
   padding: 20px;
   box-shadow: 0 0 16px 14px #00000014;
+  max-height: 500px;
+  height: 100%;
+  overflow-y: auto;
 }
 .pop-pro-img {
   height: 50px;
@@ -2404,7 +2421,8 @@ h2.discount-title {
 
 .imgs__wrapper, .item__imgs {
   display: flex;
-  overflow: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .item__wrapper:nth-of-type(1) {
@@ -2474,7 +2492,7 @@ cursor: inherit;
   border-radius: 20px;
   box-shadow: 1px 1px 20px #00000059;
   display: none;
-  max-height: 900px;
+  max-height: 600px;
   height: auto;
   overflow-y: auto;
 }
