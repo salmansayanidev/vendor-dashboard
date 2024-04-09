@@ -1,4 +1,24 @@
 @media (max-width: 1620px) {
+  .booking-popup-main {
+    overflow-y: auto;
+    height: 500px;
+  }
+  iframe.payment-detail-map {
+    height: 630px;
+  }
+  .payment-detail-inner.left {
+    height: 630px;
+    padding: 30px;
+  }
+  .coupons-gift-area {
+    width: 30%;
+  }
+  .gift-img {
+    width: 36%;
+  }
+  .vehicle-type {
+    gap: 10px 10px;
+  }
   .dash-result-area {
     justify-content: space-between;
     gap: 12px;
@@ -8,18 +28,27 @@
   }
   #my_booking_wrapper .row.dt-row {
     overflow: auto;
-} 
-#my_booking_wrapper .row.dt-row .col-sm-12 {
+  }
+  #my_booking_wrapper .row.dt-row .col-sm-12 {
     min-width: 1350px;
-}
+  }
 }
 
 @media (max-width: 1450px) {
-    .release-liability-popup {
-        max-height: 450px;
-        padding: 20px 20px;
-
-    }
+  .coupons-gift-main {
+    gap: 20px 0;
+  }
+  .coupons-gift-area {
+    width: 32%;
+    height: 220px;
+  }
+  .reviews-area-inner {
+    gap: 25px;
+  }
+  .release-liability-popup {
+    max-height: 450px;
+    padding: 20px 20px;
+  }
   html {
     font-size: 55%;
   }
@@ -52,22 +81,87 @@
   }
 }
 
+@media (max-width: 1366px) {
+  iframe.payment-detail-map {
+    height: 550px;
+  }
+  .payment-detail-inner.left {
+    height: 550px;
+    padding: 30px;
+  }
+  .review-discrip {
+    line-height: 1.3;
+    margin-top: 10px;
+  }
+  .reviews-pro-img {
+    height: 70px;
+    width: 70px;
+  }
+  .label-area {
+    max-width: 200px;
+  }
+  .vehicle-listing-left {
+    gap: 60px;
+  }
+  .input-area {
+    margin-left: 40px;
+  }
+  .profile-inner-left {
+    width: 65%;
+  }
+  .profile-inner-right {
+    width: 25%;
+  }
+}
+
 @media (max-width: 1290px) {
-    #multi-step-form {
-        margin-top: 35px;
-        padding: 20px 20px;
-        border-radius: 10px;
-    }
-    .booking-charge-tabel-area, .profile-main-area, .reviews-area {
-        padding: 25px 20px 30px;
-    }
-    .theme-btn {
-        padding: 10px 5px;
-        width: 130px;
-    }
-    .form-map {
-        height: 350px !important;
-    }
+  .container-card {
+    max-width: 420px;
+    max-height: 220px;
+  }
+  .gitf-percent {
+    font-size: 4.2rem;
+  }
+  .coupons-gift-area {
+    height: 200px;
+  }
+  .coupons-gift-area {
+    padding: 20px 20px;
+  }
+  #contact_wrapper .row.dt-row {
+    overflow: auto;
+  }
+  #contact_wrapper .row.dt-row .col-sm-12 {
+    min-width: 1200px;
+  }
+  .vehicles-listing-area {
+    padding: 10px 10px;
+    height: 180px;
+  }
+  .vehicle-img {
+    max-width: 260px;
+  }
+  img.img-fluid.vehicle-lis-img {
+    max-width: 260px;
+    max-height: 140px;
+  }
+  #multi-step-form {
+    margin-top: 35px;
+    padding: 20px 20px;
+    border-radius: 10px;
+  }
+  .booking-charge-tabel-area,
+  .profile-main-area,
+  .reviews-area {
+    padding: 25px 20px 30px;
+  }
+  .theme-btn {
+    padding: 10px 5px;
+    width: 130px;
+  }
+  .form-map {
+    height: 350px !important;
+  }
   .dash-result-inner {
     padding: 10px 10px;
   }
@@ -85,9 +179,37 @@
   }
 }
 
+@media (max-width: 1202px) {
+  .booking-detail-img {
+    height: 100px;
+    width: 100px;
+  }
+  #payment_logs_wrapper .row.dt-row {
+    overflow: auto;
+  }
+  #payment_logs_wrapper .row.dt-row .col-sm-12 {
+    min-width: 1000px;
+  }
+  .profile-inner-right {
+    width: 27%;
+  }
+}
 
 @media (max-width: 1034px) {
-    
+  .booking-user-top-area.mb-45px {
+    margin-bottom: 42px;
+  }
+  .label-area {
+    max-width: 150px;
+  }
+  .input-area {
+    margin-left: 20px;
+  }
+  .release-liability-popup {
+    width: 100%;
+    max-width: 800px;
+  }
+
   .dash-left-sidebar {
     position: absolute;
     z-index: 999;
@@ -126,28 +248,146 @@
 }
 
 @media (max-width: 991px) {
-    .release-liability-popup {
-        max-width: 650px;
-        width: 100%;
-    }
-    .features-main {
-        justify-content: start;
-        gap: 15px 12px;
-    }
-    .features-check-area {
-        width: 32%;
-    }
-    .place-radio-main {
-        justify-content: start;
-        gap: 10px 8px;
-    }
-    .place-radio-area {
-        width: 24%;
-    }
-    .theme-btn {
-        padding: 8px 5px;
-        width: 110px;
-    }
+  .user-driver-booking .user-driver-booking-inner {
+    width: 100%;
+  }
+  .popup-fields-area {
+    width: 49%;
+  }
+  .wallet-pay-show-area {
+    max-width: 300px;
+  }
+  #my_wallet_wrapper .row.dt-row {
+    overflow: auto;
+  }
+  #my_wallet_wrapper .row.dt-row .col-sm-12 {
+    min-width: 1000px;
+  }
+  .payment-detail-inner {
+    width: 100%;
+  }
+  .payment-detail-inner.left {
+    margin-bottom: 30px;
+  }
+
+  .field-container {
+    width: 49%;
+    margin-bottom: 20px;
+  }
+  .coupons-gift-area {
+    width: 48%;
+  }
+  .reviews-pro-img {
+    height: 50px;
+    width: 50px;
+  }
+  .reviews-area-inner {
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  .profile-inner-area {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .profile-inner-left {
+    width: 100%;
+  }
+  .profile-inner-right {
+    width: 100%;
+    justify-content: center;
+  }
+  .pro-title {
+    margin: 15px 0;
+  }
+
+  .password-input {
+    margin-bottom: 15px;
+  }
+  .label-area {
+    max-width: 120px;
+  }
+
+  .profile-text-area {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .fc .fc-toolbar {
+    align-items: start;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .fc-header-toolbar.fc-toolbar.fc-toolbar-ltr .fc-toolbar-chunk:nth-child(2) {
+    order: 1;
+  }
+  .fc-today-button {
+    height: 40px !important;
+    padding: 6px 20px !important;
+  }
+  .fc .fc-button .fc-icon {
+    font-size: 3rem !important;
+  }
+  .fc-next-button,
+  .fc-prev-button,
+  .fc-dayGridMonth-button,
+  .fc-timeGridWeek-button,
+  .fc-timeGridDay-button,
+  .fc-listMonth-button {
+    height: 40px !important;
+  }
+  .vehicle-type-area {
+    width: 32%;
+  }
+  .vehicles-listing-area {
+    height: auto;
+    flex-direction: column;
+  }
+  .vehicles-listing-right {
+    width: 100%;
+    text-align: end;
+  }
+  .vehicle-listing-left {
+    gap: 40px;
+    width: 100%;
+  }
+  .vehicle-price {
+    font-size: 5rem;
+  }
+  .location-input-area .fa-location-dot {
+    font-size: 2rem;
+  }
+  .location-input {
+    height: 40px;
+  }
+  .location-input-area {
+    width: 80%;
+  }
+  #rental_module_wrapper .row.dt-row .col-sm-12 {
+    min-width: 960px;
+  }
+  .release-liability-popup {
+    max-width: 650px;
+    width: 100%;
+  }
+  .features-main {
+    justify-content: start;
+    gap: 15px 12px;
+  }
+  .features-check-area {
+    width: 32%;
+  }
+  .place-radio-main {
+    justify-content: start;
+    gap: 10px 8px;
+  }
+  .place-radio-area {
+    width: 24%;
+  }
+  .theme-btn {
+    padding: 8px 5px;
+    width: 110px;
+  }
   .dash-result-inner {
     width: 49%;
   }
@@ -162,129 +402,492 @@
   }
 }
 
-@media (max-width: 768px) {
-    .dataTables_filter {
-        justify-content: start;
-        margin-top: 10px;
-      }
-      .header-search-area {
-        max-width: 340px;
-    }
+@media (max-width: 767px) {
+  .dataTables_filter {
+    justify-content: start;
+    margin-top: 10px;
+  }
+  .header-search-area {
+    max-width: 340px;
+  }
 }
 
 @media (max-width: 585px) {
-    .dataTables_paginate.paging_simple_numbers {
-        justify-content: center;
-        margin-top: 10px;
-    }
-    .dataTables_info {
-        text-align: center;
-    }
+  .calender-popup-main {
+    max-width: 400px;
+  }
+  .booking-popup-main {
+    max-width: 450px;
+  }
+  .wallet-pay-show-area {
+    max-width: 250px;
+  }
+  .booking-detail-text {
+    font-size: 1.8rem;
+  }
+  .payment-detail-inner.left {
+    padding: 20px;
+  }
+  .payment-detail-inner.left {
+    height: auto;
+  }
+  .container-card {
+    max-width: 350px;
+    max-height: 220px;
+    margin-bottom: 50px;
+  }
+  .payment-btn {
+    padding: 12px 16px 12px 16px;
+  }
+  .gift-img {
+    width: 30%;
+  }
+  .coupons-gift-area {
+    height: 170px;
+  }
+  .profile-inner-left {
+    margin-top: 30px;
+  }
+  .label-area {
+    max-width: 100%;
+  }
+  .input-area {
+    margin-left: 0;
+  }
+  .input-area input {
+    width: 100%;
+    padding: 5px 0 10px;
+  }
+  .label-area::after {
+    display: none;
+  }
+  .profile-text-area {
+    display: block;
+  }
+  img.pro-picture {
+    width: 180px;
+    height: 160px;
+  }
+  .label-area {
+    max-width: 100px;
+  }
+  .booking-charge-tabel-area,
+  .profile-main-area,
+  .reviews-area {
+    padding: 20px 10px 30px;
+  }
+  #calendar table.fc-col-header th {
+    padding: 10px 0 !important;
+  }
+  .vehicle-features-main {
+    gap: 10px 0;
+  }
+  .vehicle-feature-area {
+    width: 100%;
+  }
+  .vehicle-type-area {
+    width: 48%;
+  }
+  .flex-area .form-field-area {
+    width: 100%;
+  }
+  .vehicle-listing-left {
+    gap: 10px;
+  }
+
+  .vehicles-listing-right {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .vehicle-name-area {
+    text-align: center;
+  }
+  .vehicle-listing-left {
+    flex-direction: column;
+    align-items: center;
+  }
+  .vehicles-listing-right {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .release-liability-popup {
+    max-width: 480px;
+    width: 100%;
+  }
+  .step-form-title {
+    font-size: 3.5rem;
+  }
+  .pricing-area {
+    margin-top: 0px;
+  }
+  .features-check-area {
+    width: 48%;
+  }
+  .location-fields-area .form-field-area {
+    width: 100%;
+  }
+  .place-radio-area {
+    width: 32%;
+  }
+  #rental_module_wrapper .row.dt-row .col-sm-12 {
+    min-width: 910px;
+  }
+  .dataTables_paginate.paging_simple_numbers {
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .dataTables_info {
+    text-align: center;
+  }
   section.welcome-section {
     padding: 20px 10px;
   }
   #header {
     padding: 25px 5px;
   }
-  
+
   .header-right-side {
     gap: 5px;
   }
   .header-por-img {
     height: 30px;
     width: 30px;
-}
-.header-profile-btn {
+  }
+  .header-profile-btn {
     font-size: 1.2rem;
     gap: 5px;
-}
-.notify-count {
+  }
+  .notify-count {
     font-size: 10px;
-}
-.notification i {
+  }
+  .notification i {
     font-size: 14px;
-}
-.notification {
+  }
+  .notification {
     height: 30px;
     width: 30px;
-}
-.search-input-area {
+  }
+  .search-input-area {
     width: 80%;
-}
-.menu-btn-area {
+  }
+  .menu-btn-area {
     width: 10%;
-}
-.header-search-area {
+  }
+  .header-search-area {
     justify-content: start;
     gap: 10px;
-}
-.search-input-area {
+  }
+  .search-input-area {
     width: 70%;
-}
-html {
+  }
+  html {
     font-size: 50%;
-}
-.chart-area {
+  }
+  .chart-area {
     padding: 15px 15px;
     margin-top: 25px;
-}
-}
-
-@media (max-width:490px) {
-    .search-input-area {
-        position: absolute;
-        top: 50%;
-        transition: 0.5s;
-        left: -100%;
-        transform: translate(-50%, -50%);
-        z-index: 99;
-        background-color: #0d233e;
-        padding: 30px 20px;
-        border-radius: 10px;
-        width: 90%;
-    }
-    .search-input-area.active {
-        left: 50%;
-    }
-    .search-area {
-        max-width: 100%;
-    }
-    .res-search-btn {
-        display: flex;
-    }
-    .menu-btn-area {
-        width: auto;
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        gap: 10px;
-    }
-    .menu-btn, .res-search-btn {
-        height: 30px;
-        width: 30px;
-        font-size: 2rem;
-    }
-    button.search-pop-cls {
-        display: flex;
-    }
-    .dash-result-icon-area {
-        border-radius: 10px;
-        height: 45px;
-        width: 45px;
-    }
-    html {
-        font-size: 45%;
-    }
-    .dash-result-inner {
-        width: 100%;
-    }
-    .footer-area {
-        flex-direction: column;
-        gap: 10px 0;
-    }
-    .footer-social-icons {
-        height: 25px;
-        width: 25px;
-    }
+  }
 }
 
+@media (max-width: 490px) {
+  .booking-popup-main {
+    max-width: 400px;
+    height: 440px;
+    padding: 10px;
+  }
+  iframe.payment-detail-map {
+    height: 350px;
+  }
+  table.theme-tabel th {
+    font-size: 1.6rem;
+  }
+  .payment-method-input {
+    height: 40px;
+    padding: 10px 10px;
+  }
+  ul.payment-tabs-btn-area {
+    gap: 10px;
+  }
+  .right-circle {
+    height: 15px;
+    width: 15px;
+  }
+  .payment-btn {
+    padding: 8px 10px 8px 10px;
+  }
+  .coupons-gift-area {
+    width: 49%;
+  }
+  .coupons-gift-area {
+    height: 150px;
+  }
+  .release-liability-popup {
+    padding: 10px;
+    max-width: 400px;
+  }
+  .content__wrapper {
+    min-width: 350px;
+    gap: 10px;
+  }
+  .load__img-content {
+    padding: 28px 10px;
+  }
+  .pricing-area {
+    padding: 0 10px;
+  }
+  #multi-step-form {
+    padding: 20px 10px;
+  }
+  .form-map {
+    height: 320px !important;
+  }
+  .guest-have-img {
+    max-width: 40px;
+    height: 50px;
+    width: auto;
+  }
+  .guest-have-para {
+    line-height: 1.2;
+  }
+  textarea.form-input {
+    height: 140px;
+  }
+  .place-radio-area {
+    width: 48%;
+  }
+  .search-input-area {
+    position: fixed;
+    top: 50%;
+    transition: 0.5s;
+    left: -100%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    background-color: #0d233e;
+    padding: 30px 20px;
+    border-radius: 10px;
+    width: 90%;
+  }
+  .search-input-area.active {
+    left: 50%;
+  }
+  .search-area {
+    max-width: 100%;
+  }
+  .res-search-btn {
+    display: flex;
+  }
+  .menu-btn-area {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+  }
+  .menu-btn,
+  .res-search-btn {
+    height: 30px;
+    width: 30px;
+    font-size: 2rem;
+  }
+  button.search-pop-cls {
+    display: flex;
+  }
+  .dash-result-icon-area {
+    border-radius: 10px;
+    height: 45px;
+    width: 45px;
+  }
+  html {
+    font-size: 45%;
+  }
+  .dash-result-inner {
+    width: 100%;
+  }
+  .footer-area {
+    flex-direction: column;
+    gap: 10px 0;
+  }
+  .footer-social-icons {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+@media (max-width: 424px) {
+  .calender-popup-main {
+    max-width: 350px;
+  }
+  .booking-popup-main {
+    max-width: 340px;
+  }
+  .popup-fields-area {
+    width: 100%;
+    margin-top: 16px;
+  }
+  .dash-logo-area img {
+    width: 200px;
+  }
+  .booking-user-top-area {
+    gap: 10px;
+  }
+  .payment-detail-inner.left {
+    padding: 20px 10px;
+  }
+  .booking-detail-img {
+    height: 80px;
+    width: 80px;
+  }
+  .ccicon {
+    top: calc(50% - 10px);
+    width: 40px;
+  }
+  .field-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .payment-btn {
+    padding: 8px 5px 8px 5px;
+  }
+  ul.payment-tabs-btn-area {
+    gap: 5px;
+  }
+  .coupons-gift-area {
+    width: 80%;
+  }
+  .coupons-gift-area {
+    height: 170px;
+  }
+  .coupons-gift-main {
+    justify-content: center;
+  }
+  .fc-daygrid-day-number {
+    font-size: 2rem !important;
+  }
+  .fc-view-harness.fc-view-harness-active {
+    height: 285px !important;
+  }
+  .discount-para {
+    line-height: 1.3;
+  }
+  .release-liability-popup {
+    padding: 10px;
+    max-width: 340px;
+  }
+  .form-sb-title {
+    margin: 20px 0 10px;
+  }
+  .step-form-title {
+    margin-bottom: 15px;
+  }
+  #sign {
+    height: 20px;
+    width: 90%;
+  }
+  .booking-charge-tabel-area,
+  .profile-main-area,
+  .reviews-area {
+    padding: 25px 10px 30px;
+  }
+  .theme-btn {
+    padding: 8px 5px;
+    width: 90px;
+  }
+  .content__wrapper {
+    min-width: 310px;
+    gap: 10px;
+    justify-content: space-between;
+  }
+
+  label.add-discount-label {
+    padding: 10px 5px;
+    gap: 10px;
+  }
+  h2.discount-title {
+    font-size: 2.3rem;
+  }
+  .para-input.dscount {
+    gap: 10px;
+  }
+  .percnt-no-area {
+    padding: 7px 5px;
+    width: 40px;
+  }
+  .discount-para {
+    text-align: start;
+  }
+  .show-price-area {
+    padding: 10px 10px;
+  }
+  .count-input {
+    height: 11px;
+    width: 60px;
+    padding: 10px;
+  }
+  .count-btn {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+  }
+  .form-sb-title {
+    font-size: 2.4rem;
+  }
+  label.place-label,
+  label.features-label,
+  label.add-discount-label,
+  label.vehicle-type-label {
+    padding: 10px 5px;
+  }
+  .features-main {
+    gap: 5px 5px;
+  }
+}
+
+@media (max-width: 375px) {
+  .calender-popup-main {
+    max-width: 320px;
+  }
+  .booking-popup-main {
+    max-width: 320px;
+  }
+  #calendar table.fc-col-header th a {
+    font-size: 2rem;
+  }
+  .fc-view-harness.fc-view-harness-active {
+    height: 283px !important;
+  }
+
+  .vehicles-listings-main .vehicles-listing-area:nth-last-child(1) {
+    margin-bottom: 0;
+  }
+  img.img-fluid.vehicle-lis-img {
+    max-width: 230px;
+    max-height: 120px;
+  }
+  .location-input {
+    padding: 10px 15px 10px 40px;
+  }
+  label.guest-have-label {
+    padding: 10px 5px;
+  }
+  .step-form-title {
+    font-size: 2.5rem;
+  }
+  .place-name {
+    font-size: 1.4rem;
+  }
+  .para-input.dscount {
+    gap: 5px;
+  }
+  .content__wrapper {
+    min-width: 270px;
+    gap: 5px;
+    justify-content: space-between;
+  }
+  .multiple-preview-images {
+    width: 130px;
+    height: 90px;
+    box-shadow: none;
+  }
+}

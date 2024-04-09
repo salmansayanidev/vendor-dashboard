@@ -167,13 +167,16 @@ ul.dash-sb-nav-area {
 #header {
   padding: 25px;
   background-color: var(--theme-color);
+  position: sticky;
+  top: 0;
+  z-index: 99;
 }
 .header-main {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.menu-btn , 
+.menu-btn,
 .res-search-btn {
   display: none;
   height: 40px;
@@ -184,7 +187,7 @@ ul.dash-sb-nav-area {
   background-color: white;
   color: var(--sb-title-color);
   font-size: 2.5rem;
-  border: none; 
+  border: none;
 }
 button.search-pop-cls {
   height: 20px;
@@ -1602,22 +1605,27 @@ input {
   border-right-style: hidden !important;
   border-top-style: solid !important;
 }
+.fc-col-header {
+  width: 100%;
+}
 
 /* calendar screen end */
 
 /* popup css start */
 
 .booking-popup-wrap,
-.rental-popup-wrap {
+.rental-popup-wrap , 
+.calender-popup-wrap {
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: none;
   justify-content: center;
   align-items: center;
+  z-index: 99;
 }
 .booking-popup-wrap.active {
   display: flex;
@@ -1625,16 +1633,17 @@ input {
 .rental-popup-wrap.active {
   display: flex;
 }
-.booking-popup-main {
+.booking-popup-main , .calender-popup-main {
   background-color: white;
   max-width: 580px;
   width: 100%;
   border-radius: 5px;
   padding: 20px;
   box-shadow: 0 0 16px 14px #00000014;
-  max-height: 500px;
-  height: 100%;
   overflow-y: auto;
+}
+.calender-popup-wrap.active {
+  display: flex;
 }
 .pop-pro-img {
   height: 50px;
@@ -1695,6 +1704,11 @@ input {
   border: 1px solid #00000063;
   border-radius: 2px;
   outline: none;
+}
+textarea.pop-field-input {
+  height: 70px;
+  resize: none;
+  width: 100%;
 }
 .form-select.pop-field-input:focus {
   border-color: #00000063;
@@ -1886,7 +1900,6 @@ img.img-fluid.vehicle-lis-img {
 
 /* add hotel screeen start */
 
-
 .registration-form-section {
   padding: 50px;
 }
@@ -1954,7 +1967,7 @@ img.img-fluid.vehicle-lis-img {
   margin-bottom: 30px;
   text-align: center;
 }
-.form-input , 
+.form-input,
 .location-input {
   font-size: 1.6rem;
   border-radius: 10px;
@@ -1979,7 +1992,8 @@ textarea.form-input {
 .form-field-area {
   margin-bottom: 20px;
 }
-.place-input , .features-input {
+.place-input,
+.features-input {
   display: none;
 }
 .place-radio-main {
@@ -1987,14 +2001,14 @@ textarea.form-input {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 10px 0 ;
+  gap: 10px 0;
 }
 .place-radio-area {
   width: 16%;
 }
-label.place-label , 
+label.place-label,
 label.features-label,
-label.add-discount-label, 
+label.add-discount-label,
 label.vehicle-type-label {
   width: 100%;
   padding: 15px 14px;
@@ -2062,7 +2076,7 @@ input.guest-have-input:checked + .guest-have-label {
   border: 1px solid var(--theme-color);
   background: var(--theme-color);
 }
-input.guest-have-input:checked + .guest-have-label .guest-have-para , 
+input.guest-have-input:checked + .guest-have-label .guest-have-para,
 input.guest-have-input:checked + .guest-have-label .guest-have-title {
   color: white;
 }
@@ -2250,10 +2264,10 @@ button.cop-similis {
   border: none;
 }
 .add-discount-label {
-    width: 100%;
-    text-align: center;
-    height: 100%;
-    position: relative;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  position: relative;
 }
 .add-discount {
   margin-bottom: 20px;
@@ -2299,22 +2313,22 @@ h2.discount-title {
   font-size: 2.5rem;
   color: var(--sb-title-color);
 }
-.add-discount-input:checked  + .add-discount-label {
+.add-discount-input:checked + .add-discount-label {
   background-color: var(--theme-color);
 }
-.add-discount-input:checked  + .add-discount-label .fa-percent {
+.add-discount-input:checked + .add-discount-label .fa-percent {
   color: white;
 }
-.add-discount-input:checked  + .add-discount-label .discount-para {
+.add-discount-input:checked + .add-discount-label .discount-para {
   color: white;
 }
-.add-discount-input:checked  + .add-discount-label .discount-title  {
+.add-discount-input:checked + .add-discount-label .discount-title {
   color: white;
 }
-.add-discount-input:checked  + .add-discount-label .percnt-no {
+.add-discount-input:checked + .add-discount-label .percnt-no {
   color: var(--sb-title-color);
 }
-.add-discount-input:checked  + .add-discount-label .percnt-no-area {
+.add-discount-input:checked + .add-discount-label .percnt-no-area {
   background-color: white;
 }
 
@@ -2347,7 +2361,7 @@ h2.discount-title {
 }
 
 .load__img-wrap {
-  background-color:white;
+  background-color: white;
   margin-top: 8px;
   width: 100%;
   position: relative;
@@ -2419,7 +2433,8 @@ h2.discount-title {
   margin: 24px 0 32px;
 }
 
-.imgs__wrapper, .item__imgs {
+.imgs__wrapper,
+.item__imgs {
   display: flex;
   overflow-x: auto;
   overflow-y: hidden;
@@ -2455,17 +2470,17 @@ h2.discount-title {
 }
 
 .content__wrapper.disable {
-color: #BABABA;
+  color: #bababa;
 }
 
 .content__wrapper.disable path {
-fill:  #BABABA;
+  fill: #bababa;
 }
 
 .content__wrapper.disable button {
-background: #BABABA;
-border: 1px solid #BABABA;
-cursor: inherit;
+  background: #bababa;
+  border: 1px solid #bababa;
+  cursor: inherit;
 }
 .drag-para {
   font-size: 1.6rem;
@@ -2476,7 +2491,6 @@ cursor: inherit;
   width: 200px;
   height: 170px;
   border-radius: 5px;
-  box-shadow: 0 0 10px 4px #0000005e;
   object-fit: cover;
   object-position: center;
 }
@@ -2514,9 +2528,7 @@ p.release-para {
 }
 /* upload images css start */
 
-
 /* add hotel screeen end */
-
 
 /* add vehicle screen start */
 
@@ -2540,11 +2552,11 @@ p.release-para {
   width: 24%;
 }
 .veh-spec-title {
-    font-size: 2rem;
-    font-family: var(--Roboto-Black);
-    color: var(--sb-title-color);
-    margin: 30px 0 20px;
-    text-align: center;
+  font-size: 2rem;
+  font-family: var(--Roboto-Black);
+  color: var(--sb-title-color);
+  margin: 30px 0 20px;
+  text-align: center;
 }
 .vehicle-type-input:checked + .vehicle-type-label {
   border: 1px solid var(--theme-color);
@@ -2575,4 +2587,3 @@ p.release-para {
   width: 15px;
 }
 /* add vehicle screen end */
-
