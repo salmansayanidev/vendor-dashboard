@@ -85,8 +85,7 @@ include "header.php";
                     </div>
                 </div>
                 <div class="popup-btm">
-                    <button class="theme-btn save" type="button">Save</button>
-                    <button class="theme-btn cancel" onclick="bookingPopupCan()" type="button">Cancel</button>
+                    <button class="theme-btn Booking-Cancel" type="button">Booking Cancel</button>
                 </div>
             </div>
         </div>
@@ -123,9 +122,6 @@ include "footer.php";
     const orderPopupWrap = document.querySelector(".calender-popup-wrap");
 
 
-    function bookingPopupCan() {
-        orderPopupWrap.classList.remove("active");
-    }
 
     function bookingPopupClose() {
         orderPopupWrap.classList.remove("active");
@@ -205,4 +201,3 @@ include "footer.php";
 </script>
 
 <script src="./assets/js/calender-global.js"></script>
-<script src="./assets/js/calendar.js"></script>
