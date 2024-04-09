@@ -120,25 +120,85 @@ include "footer.php";
     });
 
 
-    function disableSpecificDates(dates) {
-    dates.forEach(function (date) {
-      var dateElements = $(".fc-day[data-date='" + date + "']");
-      console.log(dateElements);
-      dateElements.addClass("disabled");
-    });
+    const orderPopupWrap = document.querySelector(".calender-popup-wrap");
+
+
+    function bookingPopupCan() {
+        orderPopupWrap.classList.remove("active");
+    }
+
+    function bookingPopupClose() {
+        orderPopupWrap.classList.remove("active");
+    }
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+  var calendarEl = document.getElementById("calendar");
+
+  var defaultDates = [
+    "2024-01-03",
+    "2024-01-13",
+    "2024-01-18",
+    "2024-01-29"
+  ];
+
+  var calendar = new FullCalendar.Calendar(calendarEl, {
+    headerToolbar: {
+      left: "prev,next today",
+      center: "title",
+      right: "dayGridMonth,timeGridWeek,timeGridDay,listMonth",
+    },
+    initialDate: "2024-01-12",
+    navLinks: true, // can click day/week names to navigate views
+    businessHours: true, // display business hours
+    editable: false,
+    selectable: true,
+    events: [
+      {
+        title: "Booked",
+        start: "2024-01-03T13:00:00",
+        constraint: "businessHours",
+        color: "#000",
+      },
+      {
+        title: "Booked",
+        start: "2024-01-13T11:00:00",
+        constraint: "availableForMeeting", // defined below
+        color: "#257e4a",
+      },
+      {
+        title: "Booked",
+        start: "2024-01-18",
+      },
+      {
+        title: "Booked",
+        start: "2024-01-29T20:00:00",
+      }
+    ],
+ 
+
+ dayCellDidMount: function (info) {
+  var date = info.date.toISOString().slice(0, 10);
+  if (defaultDates.includes(date)) {
+    var nextDay = new Date(info.date);
+    nextDay.setDate(nextDay.getDate()); // Calculate the next day
+    var nextDayISO = nextDay.toISOString().slice(0, 10);
+    var nextDayEl = document.querySelector('[data-date="' + nextDayISO + '"]');
+    if (nextDayEl) {
+      nextDayEl.classList.add('booked');
+      nextDayEl.addEventListener('click', function() {
+       $('.calender-popup-wrap').addClass("active")
+      });
+    }
   }
+}
 
-  // Array of dates to disable (must match the format "mm/dd/yyyy")
-  var disabledDates = ["02/20/2024", "02/25/2024", "02/27/2024"];
-  disableSpecificDates(disabledDates);
 
-//   const calendarTable = document.querySelector(".calendar-table tbody");
-//   const observer = new MutationObserver(function (mutations) {
-//     mutations.forEach(function (mutation) {
-//       disableSpecificDates(disabledDates);
-//       disablePastDates();
-//     });
-//   });
+  });
+
+  calendar.render();
+});
+;
 
 
 
