@@ -61,18 +61,16 @@
                                             <label class="detail-title">Total Amount:</label>
                                             <p class="booking-detail-text">$1250</p>
                                         </div>
-                                    </div>
 
-                                    <div class="booking-detail-area">
-                                        <label class="detail-title">Payment Method:</label>
-                                        <p class="booking-detail-text">Paid through Cash</p>
-                                    </div>
-                                    <div class="booking-detail-area">
-                                        <label class="detail-title">Driver’s Share:</label>
-                                        <p class="booking-detail-text">$1230</p>
-                                    </div>
+                                        <div class="booking-detail-area">
+                                            <label class="detail-title">Payment Method:</label>
+                                            <p class="booking-detail-text">Paid through Cash</p>
+                                        </div>
+                                        <div class="booking-detail-area">
+                                            <label class="detail-title">Driver’s Share:</label>
+                                            <p class="booking-detail-text">$1230</p>
+                                        </div>
 
-                                    <div class="flex-area">
 
                                         <div class="booking-detail-area">
                                             <label class="detail-title">Transaction I’d:</label>

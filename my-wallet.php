@@ -62,7 +62,7 @@
                                         <td>London to New York</td>
                                         <td>New York</td>
                                         <td>15-03-2024</td>
-                                        <td>$25</td>
+                                        <td>16-03-2024</td>
                                         <td>$15</td>
                                         <td><span class="paid-status">Paid</span></td>
                                         <td>
@@ -102,8 +102,8 @@
                                     <tr>
                                         <td>3</td>
                                         <td>USA to New Jersey</td>
-                                        <td>Cash</td>
                                         <td>New Jersey</td>
+                                        <td>18-03-2024</td>
                                         <td>20-03-2024</td>
                                         <td>$10</td>
                                         <td><span class="pending-status">Pending</span></td>
@@ -125,7 +125,7 @@
                                         <td>London to New York</td>
                                         <td>New York</td>
                                         <td>15-03-2024</td>
-                                        <td>$25</td>
+                                        <td>17-03-2024</td>
                                         <td>$15</td>
                                         <td><span class="paid-status">Paid</span></td>
                                         <td>
@@ -165,8 +165,8 @@
                                     <tr>
                                         <td>3</td>
                                         <td>USA to New Jersey</td>
-                                        <td>Cash</td>
                                         <td>New Jersey</td>
+                                        <td>18-03-2024</td>
                                         <td>20-03-2024</td>
                                         <td>$10</td>
                                         <td><span class="pending-status">Pending</span></td>
@@ -188,7 +188,7 @@
                                         <td>London to New York</td>
                                         <td>New York</td>
                                         <td>15-03-2024</td>
-                                        <td>$25</td>
+                                        <td>18-03-2024</td>
                                         <td>$15</td>
                                         <td><span class="paid-status">Paid</span></td>
                                         <td>
@@ -228,8 +228,8 @@
                                     <tr>
                                         <td>3</td>
                                         <td>USA to New Jersey</td>
-                                        <td>Cash</td>
                                         <td>New Jersey</td>
+                                        <td>18-03-2024</td>
                                         <td>20-03-2024</td>
                                         <td>$10</td>
                                         <td><span class="pending-status">Pending</span></td>

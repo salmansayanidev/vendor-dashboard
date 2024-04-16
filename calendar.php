@@ -135,7 +135,8 @@ include "footer.php";
     "2024-01-03",
     "2024-01-13",
     "2024-01-18",
-    "2024-01-29"
+    "2024-01-29",
+    "2024-01-27",
   ];
 
   var calendar = new FullCalendar.Calendar(calendarEl, {
@@ -159,6 +160,12 @@ include "footer.php";
       {
         title: "Booked",
         start: "2024-01-13T11:00:00",
+        constraint: "availableForMeeting", // defined below
+        color: "#257e4a",
+      },
+      {
+        title: "Booked",
+        start: "2024-01-27T11:00:00",
         constraint: "availableForMeeting", // defined below
         color: "#257e4a",
       },
