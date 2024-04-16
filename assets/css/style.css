@@ -1004,6 +1004,22 @@ button.edit-profile-btn:disabled {
   color: var(--sb-title-color);
   border-color: #2b32821c;
 }
+.password-field-area {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+}
+.eye-btn {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: black;
+  opacity: 50%;
+}
 
 /* profile screen end */
 
