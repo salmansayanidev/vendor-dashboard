@@ -123,8 +123,20 @@
                                             </div>
                                             <div class="change-password-area mt-5">
                                                 <h3 class="pro-title mt-0">Password Reset</h3>
-                                                <input class="password-input" placeholder="New Password*" type="password" name="" >
-                                                <input class="password-input mb-0" placeholder="Confirm Password*" type="password" name="" >
+                                                <div class="password-field-area">
+                                                    <div class="position-relative">
+                                                        <input class="myInput password-input mb-0" placeholder="New Password*" type="password" name="" >
+                                                        <button class="eye-btn" type="button">
+                                                            <i class="toggleIcon fa-solid fa-eye-slash"></i>
+                                                        </button>
+                                                    </div>
+                                                    <div class="position-relative">
+                                                        <input class="myInput password-input mb-0" placeholder="Confirm Password*" type="password" name="" >
+                                                        <button class="eye-btn" type="button">
+                                                            <i class="toggleIcon fa-solid fa-eye-slash"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
                                             </div>
                                             <div class="mt-5">
                                                 <button type="button" class="theme-btn">Update</button>
@@ -147,6 +159,28 @@
     include "footer.php";
 ?>
 
+
+
+<script>
+    const eyeBtns = document.querySelectorAll(".eye-btn");
+
+    eyeBtns.forEach((eyeBtn) => {
+    eyeBtn.addEventListener("click", () => {
+        const myInput = eyeBtn.previousElementSibling; // Get the specific input related to the clicked button
+        const icon = eyeBtn.querySelector("i"); // Get the specific icon related to the clicked button
+
+        if (myInput.type === "password") {
+        myInput.type = "text";
+        icon.classList.remove("fa-eye-slash");
+        icon.classList.add("fa-eye");
+        } else {
+        myInput.type = "password";
+        icon.classList.add("fa-eye-slash");
+        icon.classList.remove("fa-eye");
+        }
+    });
+    });
+</script>
 
 <script src="./assets/js/profile.js"></script>
 
