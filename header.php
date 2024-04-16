@@ -21,13 +21,74 @@
                             </div>
                         </div>
                         <div class="header-right-side">
-                            <div class="header-notify-area">
+                            <div class="header-notify-area position-relative">
                                 <span class="notification position-relative">
                                     <i class="fa-solid fa-bell"></i>
                                     <span class="notify-count">
                                         4
                                     </span>
                                 </span>
+                                <div class="notification-dropdownarea">
+                                    <h1 class="notify-title">Notifications</h1>
+                                    <div class="notification-list-area">
+                                        <div class="notification-list"> 
+                                            <div class="notification-img-area">
+                                                <img class="notification-img" src="./assets/images/tabel-img-1.png" alt="">
+                                            </div>
+                                            <div class="notifi-name-area">
+                                                <div class="notifi-name-inner">
+                                                    <h3 class="notify-name">Amelia Deo</h3>
+                                                    <span class="notify-date">10 mins</span>
+                                                </div>
+                                                <div class="">
+                                                    <p class="notify-discrip">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="notification-list"> 
+                                            <div class="notification-img-area">
+                                                <img class="notification-img" src="./assets/images/tabel-img-1.png" alt="">
+                                            </div>
+                                            <div class="notifi-name-area">
+                                                <div class="notifi-name-inner">
+                                                    <h3 class="notify-name">Amelia Deo</h3>
+                                                    <span class="notify-date">10 mins</span>
+                                                </div>
+                                                <div class="">
+                                                    <p class="notify-discrip">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="notification-list"> 
+                                            <div class="notification-img-area">
+                                                <img class="notification-img" src="./assets/images/tabel-img-1.png" alt="">
+                                            </div>
+                                            <div class="notifi-name-area">
+                                                <div class="notifi-name-inner">
+                                                    <h3 class="notify-name">Amelia Deo</h3>
+                                                    <span class="notify-date">10 mins</span>
+                                                </div>
+                                                <div class="">
+                                                    <p class="notify-discrip">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="notification-list"> 
+                                            <div class="notification-img-area">
+                                                <img class="notification-img" src="./assets/images/tabel-img-1.png" alt="">
+                                            </div>
+                                            <div class="notifi-name-area">
+                                                <div class="notifi-name-inner">
+                                                    <h3 class="notify-name">Amelia Deo</h3>
+                                                    <span class="notify-date">10 mins</span>
+                                                </div>
+                                                <div class="">
+                                                    <p class="notify-discrip">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="">
                                 <div class="dropdown">
@@ -49,3 +110,16 @@
             </div>
         </div>
     </header>
+
+
+    <script>
+
+
+        const notificationBtn = document.querySelector('.notification')
+        const notificationArea = document.querySelector('.notification-dropdownarea')
+
+        notificationBtn.addEventListener('click' , () => {
+            notificationArea.classList.toggle('active')
+        })
+
+    </script>
