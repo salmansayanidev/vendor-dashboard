@@ -552,3 +552,11 @@ const signature_text = document.getElementById('e_signature');
   releasePopupBtn.addEventListener('click' , () => {
       releasePopup.classList.add('active')
   })
+
+
+  const thnkPopBtn = document.querySelector(".thnk-pop-btn");
+const thnkPopup = document.querySelector(".thankyou-popup-wrap");
+
+thnkPopBtn.addEventListener("click", () => {
+  thnkPopup.classList.add("active");
+});
