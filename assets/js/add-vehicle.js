@@ -540,3 +540,11 @@ function updateSign() {
     // Update the content of the paragraph
     signParagraph.textContent = `${fullName}`;
 }
+
+
+const thnkPopBtn = document.querySelector(".thnk-pop-btn");
+const thnkPopup = document.querySelector(".thankyou-popup-wrap");
+
+thnkPopBtn.addEventListener("click", () => {
+  thnkPopup.classList.add("active");
+});

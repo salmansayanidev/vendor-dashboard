@@ -635,7 +635,16 @@ include "header.php";
                                             <p class="release-para" id="sign"></p>
                                         </div>
                                         <div class="form-btn-area">
-                                            <button type="submit" class="theme-btn btn btn-success">Submit</button>
+                                            <button type="submit" class="theme-btn thnk-pop-btn btn btn-success">Submit</button>
+                                        </div>
+                                    </div>
+                                    <div class="thankyou-popup-wrap">
+                                        <div class="thankyou-popup-inner">
+                                            <span class="right-icon-area">
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                            <h1 class="thankyou-title">Thank You</h1>
+                                            <a class="view-listing-link" href="vehicles.php">View Listing</a>
                                         </div>
                                     </div>
                                 </form>

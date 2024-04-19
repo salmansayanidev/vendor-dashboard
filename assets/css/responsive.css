@@ -133,6 +133,9 @@
 }
 
 @media (max-width: 1290px) {
+  .thankyou-popup-wrap {
+    max-width: 460px;
+}
   .container-card {
     max-width: 420px;
     max-height: 220px;
@@ -264,6 +267,13 @@
 }
 
 @media (max-width: 991px) {
+  span.right-icon-area {
+    height: 130px;
+    width: 130px;
+}
+.thankyou-title {
+  font-size: 5.5rem;
+}
   .fc-day.booked .fc-event {
     font-size: 1.8rem;
   }
@@ -435,6 +445,13 @@
 }
 
 @media (max-width: 585px) {
+  span.right-icon-area {
+    height: 100px;
+    width: 100px;
+}
+.thankyou-popup-wrap {
+  max-width: 400px;
+}
   iframe.payment-detail-map.w-100 {
     height: 400px;
 }
@@ -753,6 +770,19 @@
 }
 
 @media (max-width: 424px) {
+  .thankyou-popup-wrap {
+    max-width: 300px;
+}
+span.right-icon-area {
+  height: 80px;
+  width: 80px;
+}
+.thankyou-popup-inner {
+  gap: 10px 0;
+}
+.thankyou-title {
+  font-size: 4.5rem;
+}
   .calender-popup-main {
     max-width: 350px;
   }
